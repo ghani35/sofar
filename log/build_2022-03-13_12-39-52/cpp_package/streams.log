@@ -1,0 +1,22 @@
+[0.027s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.071s] [35m[1mScanning dependencies of target talkercpp[0m
+[0.096s] [ 50%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[1.788s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.788s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.788s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.789s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.789s]                  from [01m[K/home/ghani/my_ws/src/cpp_package/src/publisher_member_function.cpp:20[m[K:
+[1.789s] [01m[K/home/ghani/my_ws/src/cpp_package/src/publisher_member_function.cpp:[m[K In member function ‘[01m[Kvoid ClassName2::timer_callback()[m[K’:
+[1.789s] [01m[K/home/ghani/my_ws/src/cpp_package/src/publisher_member_function.cpp:46:74:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[Kmessage.geometry_msgs::msg::Twist_<std::allocator<void> >::linear.geometry_msgs::msg::Vector3_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.789s]    46 |     RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.linear.x.[01;31m[Kc_str[m[K());
+[1.789s]       |                                                                          [01;31m[K^~~~~[m[K
+[2.774s] make[2]: *** [CMakeFiles/talkercpp.dir/build.make:63: CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o] Error 1
+[2.774s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talkercpp.dir/all] Error 2
+[2.775s] make: *** [Makefile:141: all] Error 2
+[2.777s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

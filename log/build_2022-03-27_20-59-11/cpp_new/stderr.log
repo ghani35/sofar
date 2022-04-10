@@ -1,0 +1,23 @@
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:6[m[K:
+[01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:31:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kcustomized_srv_msg::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+   31 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%d'"[m[K, [32m[Kmessage.num[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+      |                                                                   [32m[K|[m[K
+      |                                                                   [32m[Kcustomized_srv_msg::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:31:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   31 |       RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%d[m[K'", message.num);
+      |                                                     [01;36m[K~^[m[K
+      |                                                      [01;36m[K|[m[K
+      |                                                      [01;36m[Kint[m[K
+      |                                                     [32m[K%ld[m[K

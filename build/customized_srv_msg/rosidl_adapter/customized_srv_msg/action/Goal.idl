@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from customized_srv_msg/action/Goal.action
+// generated code does not contain a copyright notice
+
+
+module customized_srv_msg {
+  module action {
+    struct Goal_Goal {
+      sequence<float> x;
+    };
+    struct Goal_Result {
+      int32 sequence;
+    };
+    struct Goal_Feedback {
+      sequence<float> partial_sequence;
+    };
+  };
+};

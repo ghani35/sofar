@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target listnercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listnercpp.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable listnercpp[0m
+[100%] Built target listnercpp
+-- Install configuration: ""
+-- Installing: /home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp
+-- Set runtime path of "/home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp" to ""
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/package_run_dependencies/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/parent_prefix_path/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.bash
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.zsh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.dsv
+-- Installing: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/packages/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig.cmake
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig-version.cmake
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.xml

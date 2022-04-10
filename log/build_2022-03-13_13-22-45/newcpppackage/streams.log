@@ -1,0 +1,22 @@
+[0.014s] Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6
+[0.062s] [35m[1mScanning dependencies of target listnercpp[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/listnercpp.dir/src/sub.cpp.o[0m
+[1.944s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.944s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.945s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.945s]                  from [01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:3[m[K:
+[1.945s] [01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[1.945s] [01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:21:64:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kc_str[m[K’ in ‘[01m[K((const std::__shared_ptr_access<turtlesim::msg::Pose_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<turtlesim::msg::Pose_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->turtlesim::msg::Pose_<std::allocator<void> >::x[m[K’, which is of non-class type ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kfloat[m[K’}
+[1.945s]    21 |        RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->x.[01;31m[Kc_str[m[K());
+[1.945s]       |                                                                [01;31m[K^~~~~[m[K
+[3.560s] make[2]: *** [CMakeFiles/listnercpp.dir/build.make:63: CMakeFiles/listnercpp.dir/src/sub.cpp.o] Error 1
+[3.560s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/listnercpp.dir/all] Error 2
+[3.561s] make: *** [Makefile:141: all] Error 2
+[3.563s] Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6

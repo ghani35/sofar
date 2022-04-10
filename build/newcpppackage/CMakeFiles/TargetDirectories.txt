@@ -1,0 +1,10 @@
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/install/strip.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/install/local.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/install.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/list_install_components.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/rebuild_cache.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/edit_cache.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/test.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/newcpppackage_uninstall.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/listnercpp.dir
+/home/ghani/my_ws/build/newcpppackage/CMakeFiles/uninstall.dir

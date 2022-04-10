@@ -1,0 +1,11 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[0.062s] [35m[1mScanning dependencies of target controllercpp[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[1.716s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In function ‘[01m[Kvoid setVelocity()[m[K’:
+[1.716s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:68:6:[m[K [01;31m[Kerror: [m[Kbreak statement not within loop or switch
+[1.716s]    68 |      [01;31m[Kbreak[m[K;
+[1.716s]       |      [01;31m[K^~~~~[m[K
+[4.070s] make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+[4.070s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+[4.070s] make: *** [Makefile:141: all] Error 2
+[4.073s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6

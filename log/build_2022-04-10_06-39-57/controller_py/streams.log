@@ -1,0 +1,25 @@
+[0.567s] Invoking command in '/home/ghani/my_ws/src/controller_py': PYTHONPATH=/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller_py build --build-base /home/ghani/my_ws/build/controller_py/build install --prefix /home/ghani/my_ws/install/controller_py --record /home/ghani/my_ws/build/controller_py/install.log --single-version-externally-managed
+[0.759s] running egg_info
+[0.759s] writing ../../build/controller_py/controller_py.egg-info/PKG-INFO
+[0.760s] writing dependency_links to ../../build/controller_py/controller_py.egg-info/dependency_links.txt
+[0.760s] writing entry points to ../../build/controller_py/controller_py.egg-info/entry_points.txt
+[0.761s] writing requirements to ../../build/controller_py/controller_py.egg-info/requires.txt
+[0.761s] writing top-level names to ../../build/controller_py/controller_py.egg-info/top_level.txt
+[0.794s] reading manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'
+[0.795s] writing manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.796s] copying controller_py/action_controller.py -> /home/ghani/my_ws/build/controller_py/build/lib/controller_py
+[0.796s] running install
+[0.797s] running install_lib
+[0.798s] copying /home/ghani/my_ws/build/controller_py/build/lib/controller_py/action_controller.py -> /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py
+[0.798s] byte-compiling /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py/action_controller.py to action_controller.cpython-38.pyc
+[0.801s] running install_data
+[0.802s] running install_egg_info
+[0.803s] removing '/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.803s] Copying ../../build/controller_py/controller_py.egg-info to /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info
+[0.804s] running install_scripts
+[0.823s] Installing py_action_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py
+[0.823s] Installing py_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py
+[0.823s] writing list of installed files to '/home/ghani/my_ws/build/controller_py/install.log'
+[0.853s] Invoked command in '/home/ghani/my_ws/src/controller_py' returned '0': PYTHONPATH=/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller_py build --build-base /home/ghani/my_ws/build/controller_py/build install --prefix /home/ghani/my_ws/install/controller_py --record /home/ghani/my_ws/build/controller_py/install.log --single-version-externally-managed

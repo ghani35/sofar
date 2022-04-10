@@ -1,0 +1,22 @@
+[0.698s] Invoking command in '/home/ghani/my_ws/src/py_srvcli': PYTHONPATH=/home/ghani/my_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ghani/my_ws/build/py_srvcli/build install --prefix /home/ghani/my_ws/install/py_srvcli --record /home/ghani/my_ws/build/py_srvcli/install.log --single-version-externally-managed
+[0.876s] running egg_info
+[0.876s] writing ../../build/py_srvcli/py_srvcli.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/py_srvcli/py_srvcli.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/py_srvcli/py_srvcli.egg-info/entry_points.txt
+[0.878s] writing requirements to ../../build/py_srvcli/py_srvcli.egg-info/requires.txt
+[0.878s] writing top-level names to ../../build/py_srvcli/py_srvcli.egg-info/top_level.txt
+[0.909s] reading manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.910s] writing manifest file '../../build/py_srvcli/py_srvcli.egg-info/SOURCES.txt'
+[0.910s] running build
+[0.910s] running build_py
+[0.910s] running install
+[0.911s] running install_lib
+[0.913s] running install_data
+[0.914s] running install_egg_info
+[0.915s] removing '/home/ghani/my_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info' (and everything under it)
+[0.915s] Copying ../../build/py_srvcli/py_srvcli.egg-info to /home/ghani/my_ws/install/py_srvcli/lib/python3.8/site-packages/py_srvcli-0.0.0-py3.8.egg-info
+[0.916s] running install_scripts
+[0.932s] Installing client script to /home/ghani/my_ws/install/py_srvcli/lib/py_srvcli
+[0.932s] Installing service script to /home/ghani/my_ws/install/py_srvcli/lib/py_srvcli
+[0.934s] writing list of installed files to '/home/ghani/my_ws/build/py_srvcli/install.log'
+[0.959s] Invoked command in '/home/ghani/my_ws/src/py_srvcli' returned '0': PYTHONPATH=/home/ghani/my_ws/install/py_srvcli/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_srvcli build --build-base /home/ghani/my_ws/build/py_srvcli/build install --prefix /home/ghani/my_ws/install/py_srvcli --record /home/ghani/my_ws/build/py_srvcli/install.log --single-version-externally-managed

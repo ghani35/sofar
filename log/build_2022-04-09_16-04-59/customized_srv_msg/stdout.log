@@ -1,0 +1,7 @@
+[  1%] Built target customized_srv_msg__cpp
+[ 12%] Built target customized_srv_msg__rosidl_generator_c
+[ 20%] [32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/action/goal__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/goal__type_support.cpp.o[0m
+[ 27%] Built target customized_srv_msg__rosidl_typesupport_c
+[ 40%] [32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[ 40%] Built target customized_srv_msg__rosidl_typesupport_introspection_c

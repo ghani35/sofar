@@ -1,0 +1,25 @@
+[1.203s] Invoking command in '/home/ghani/my_ws/src/py_package': PYTHONPATH=/home/ghani/my_ws/install/py_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_package build --build-base /home/ghani/my_ws/build/py_package/build install --prefix /home/ghani/my_ws/install/py_package --record /home/ghani/my_ws/build/py_package/install.log --single-version-externally-managed
+[1.617s] running egg_info
+[1.619s] writing ../../build/py_package/py_package.egg-info/PKG-INFO
+[1.620s] writing dependency_links to ../../build/py_package/py_package.egg-info/dependency_links.txt
+[1.621s] writing entry points to ../../build/py_package/py_package.egg-info/entry_points.txt
+[1.623s] writing requirements to ../../build/py_package/py_package.egg-info/requires.txt
+[1.624s] writing top-level names to ../../build/py_package/py_package.egg-info/top_level.txt
+[1.691s] reading manifest file '../../build/py_package/py_package.egg-info/SOURCES.txt'
+[1.693s] writing manifest file '../../build/py_package/py_package.egg-info/SOURCES.txt'
+[1.694s] running build
+[1.695s] running build_py
+[1.696s] copying py_package/__init__.py -> /home/ghani/my_ws/build/py_package/build/lib/py_package
+[1.696s] running install
+[1.697s] running install_lib
+[1.699s] copying /home/ghani/my_ws/build/py_package/build/lib/py_package/__init__.py -> /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package
+[1.700s] byte-compiling /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package/__init__.py to __init__.cpython-38.pyc
+[1.704s] running install_data
+[1.705s] copying resource/py_package -> /home/ghani/my_ws/install/py_package/share/ament_index/resource_index/packages
+[1.707s] copying package.xml -> /home/ghani/my_ws/install/py_package/share/py_package
+[1.708s] running install_egg_info
+[1.709s] removing '/home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.709s] Copying ../../build/py_package/py_package.egg-info to /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package-0.0.0-py3.8.egg-info
+[1.711s] running install_scripts
+[1.736s] writing list of installed files to '/home/ghani/my_ws/build/py_package/install.log'
+[1.780s] Invoked command in '/home/ghani/my_ws/src/py_package' returned '0': PYTHONPATH=/home/ghani/my_ws/install/py_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_package build --build-base /home/ghani/my_ws/build/py_package/build install --prefix /home/ghani/my_ws/install/py_package --record /home/ghani/my_ws/build/py_package/install.log --single-version-externally-managed

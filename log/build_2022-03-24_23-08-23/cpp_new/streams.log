@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/cpp_new -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/cpp_new
+[0.073s] -- The C compiler identification is GNU 9.3.0
+[0.127s] -- The CXX compiler identification is GNU 9.3.0
+[0.131s] -- Check for working C compiler: /usr/bin/cc
+[0.204s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.204s] -- Detecting C compiler ABI info
+[0.279s] -- Detecting C compiler ABI info - done
+[0.290s] -- Detecting C compile features
+[0.290s] -- Detecting C compile features - done
+[0.292s] -- Check for working CXX compiler: /usr/bin/c++
+[0.376s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.377s] -- Detecting CXX compiler ABI info
+[0.460s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Detecting CXX compile features
+[0.473s] -- Detecting CXX compile features - done
+[0.482s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.507s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.507s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.583s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.653s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.655s] -- Added test 'lint_cmake' to check CMake code style
+[0.656s] -- Added test 'xmllint' to check XML markup files
+[0.658s] -- Configuring done
+[0.661s] -- Generating done
+[0.662s] -- Build files have been written to: /home/ghani/my_ws/build/cpp_new
+[0.666s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/cpp_new -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/cpp_new
+[0.669s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.714s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.760s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_new
+[0.769s] -- Install configuration: ""
+[0.769s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/package_run_dependencies/cpp_new
+[0.769s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/parent_prefix_path/cpp_new
+[0.769s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.sh
+[0.769s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.dsv
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.sh
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.dsv
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.bash
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.sh
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.zsh
+[0.770s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.dsv
+[0.771s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.dsv
+[0.771s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/packages/cpp_new
+[0.771s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig.cmake
+[0.771s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig-version.cmake
+[0.771s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.xml
+[0.773s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_new

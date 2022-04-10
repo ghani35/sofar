@@ -1,0 +1,4 @@
+[console_scripts]
+action_client = action_py.fibonacci_client:main
+action_server = action_py.fibonacci_action_server:main
+

@@ -1,0 +1,2 @@
+Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

@@ -1,0 +1,6 @@
+source;share/srevices_exercise/hook/pythonpath.ps1
+source;share/srevices_exercise/hook/pythonpath.dsv
+source;share/srevices_exercise/hook/pythonpath.sh
+source;share/srevices_exercise/hook/ament_prefix_path.ps1
+source;share/srevices_exercise/hook/ament_prefix_path.dsv
+source;share/srevices_exercise/hook/ament_prefix_path.sh

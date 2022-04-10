@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target listnercpp[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listnercpp.dir/src/subscriber.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable listnercpp[0m
+[ 75%] Built target listnercpp

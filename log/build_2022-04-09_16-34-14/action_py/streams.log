@@ -1,0 +1,28 @@
+[0.561s] Invoking command in '/home/ghani/my_ws/src/action_py': PYTHONPATH=/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ghani/my_ws/build/action_py/build install --prefix /home/ghani/my_ws/install/action_py --record /home/ghani/my_ws/build/action_py/install.log --single-version-externally-managed
+[0.744s] running egg_info
+[0.744s] writing ../../build/action_py/action_py.egg-info/PKG-INFO
+[0.750s] writing dependency_links to ../../build/action_py/action_py.egg-info/dependency_links.txt
+[0.750s] writing entry points to ../../build/action_py/action_py.egg-info/entry_points.txt
+[0.750s] writing requirements to ../../build/action_py/action_py.egg-info/requires.txt
+[0.750s] writing top-level names to ../../build/action_py/action_py.egg-info/top_level.txt
+[0.783s] reading manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[0.785s] writing manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[0.786s] running build
+[0.786s] running build_py
+[0.787s] copying action_py/fibonacci_action_server.py -> /home/ghani/my_ws/build/action_py/build/lib/action_py
+[0.787s] copying action_py/fibonacci_client.py -> /home/ghani/my_ws/build/action_py/build/lib/action_py
+[0.788s] running install
+[0.789s] running install_lib
+[0.790s] copying /home/ghani/my_ws/build/action_py/build/lib/action_py/fibonacci_action_server.py -> /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py
+[0.790s] copying /home/ghani/my_ws/build/action_py/build/lib/action_py/fibonacci_client.py -> /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py
+[0.790s] byte-compiling /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py/fibonacci_action_server.py to fibonacci_action_server.cpython-38.pyc
+[0.792s] byte-compiling /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py/fibonacci_client.py to fibonacci_client.cpython-38.pyc
+[0.793s] running install_data
+[0.794s] running install_egg_info
+[0.795s] removing '/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.795s] Copying ../../build/action_py/action_py.egg-info to /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info
+[0.797s] running install_scripts
+[0.813s] Installing action_client script to /home/ghani/my_ws/install/action_py/lib/action_py
+[0.813s] Installing action_server script to /home/ghani/my_ws/install/action_py/lib/action_py
+[0.813s] writing list of installed files to '/home/ghani/my_ws/build/action_py/install.log'
+[0.838s] Invoked command in '/home/ghani/my_ws/src/action_py' returned '0': PYTHONPATH=/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ghani/my_ws/build/action_py/build install --prefix /home/ghani/my_ws/install/action_py --record /home/ghani/my_ws/build/action_py/install.log --single-version-externally-managed

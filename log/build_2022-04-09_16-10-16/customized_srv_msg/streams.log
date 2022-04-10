@@ -1,0 +1,73 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/customized_srv_msg': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/customized_srv_msg -- -j6 -l6
+[0.043s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.064s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.064s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.117s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.122s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.287s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.465s] CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.466s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.466s]   customized_srv_msg --arguments-file
+[0.466s]   /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter__arguments__customized_srv_msg.json
+[0.466s]   --output-dir
+[0.466s]   /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg
+[0.466s]   --output-file
+[0.466s]   /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg.idls)
+[0.466s]   returned error code 1:
+[0.466s] 
+[0.466s]   Error processing 'float32 x y' of 'customized_srv_msg/Fibonacci_Goal':
+[0.466s]   'value 'y' can not be converted to type 'float32': must be a floating point
+[0.466s]   number using '.' as the separator'
+[0.466s] 
+[0.466s]   Traceback (most recent call last):
+[0.466s] 
+[0.466s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 722, in parse_primitive_value_string
+[0.466s]       return float(value_string)
+[0.467s] 
+[0.467s]   ValueError: could not convert string to float: 'y'
+[0.467s] 
+[0.467s]   
+[0.467s] 
+[0.467s]   During handling of the above exception, another exception occurred:
+[0.467s] 
+[0.467s]   
+[0.467s] 
+[0.467s]   Traceback (most recent call last):
+[0.467s] 
+[0.467s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.467s]       return _run_code(code, main_globals, None,
+[0.467s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.467s]       exec(code, run_globals)
+[0.467s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.467s]       sys.exit(main())
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.468s]       abs_idl_file = convert_to_idl(
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[0.468s]       return convert_action_to_idl(
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[0.468s]       action = parse_action_string(package_name, input_file.stem, content)
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+[0.468s]       goal_message = parse_message_string(
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.468s]       fields.append(Field(
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 360, in __init__
+[0.468s]       self.default_value = parse_value_string(
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 587, in parse_value_string
+[0.468s]       return parse_primitive_value_string(type_, value_string)
+[0.468s]     File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 724, in parse_primitive_value_string
+[0.468s]       raise InvalidValue(
+[0.468s] 
+[0.468s]   rosidl_adapter.parser.InvalidValue: value 'y' can not be converted to type
+[0.468s]   'float32': must be a floating point number using '.' as the separator
+[0.468s] 
+[0.468s] Call Stack (most recent call first):
+[0.469s]   /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.469s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.469s] 
+[0.469s] 
+[0.469s] -- Configuring incomplete, errors occurred!
+[0.469s] See also "/home/ghani/my_ws/build/customized_srv_msg/CMakeFiles/CMakeOutput.log".
+[0.472s] make: *** [Makefile:1228: cmake_check_build_system] Error 1
+[0.475s] Invoked command in '/home/ghani/my_ws/build/customized_srv_msg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/customized_srv_msg -- -j6 -l6

@@ -1,0 +1,33 @@
+[0.026s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.054s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.074s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.130s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.162s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.325s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.327s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.345s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.474s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.513s] CMake Error at CMakeLists.txt:13 (find_package):
+[0.514s]   By not providing "Findturtlesim_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.514s]   project has asked CMake to find a package configuration file provided by
+[0.514s]   "turtlesim_msgs", but CMake did not find one.
+[0.514s] 
+[0.514s]   Could not find a package configuration file provided by "turtlesim_msgs"
+[0.514s]   with any of the following names:
+[0.514s] 
+[0.515s]     turtlesim_msgsConfig.cmake
+[0.515s]     turtlesim_msgs-config.cmake
+[0.515s] 
+[0.515s]   Add the installation prefix of "turtlesim_msgs" to CMAKE_PREFIX_PATH or set
+[0.515s]   "turtlesim_msgs_DIR" to a directory containing one of the above files.  If
+[0.515s]   "turtlesim_msgs" provides a separate development package or SDK, be sure it
+[0.515s]   has been installed.
+[0.515s] 
+[0.515s] 
+[0.515s] -- Configuring incomplete, errors occurred!
+[0.515s] See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeOutput.log".
+[0.515s] See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeError.log".
+[0.522s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.524s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

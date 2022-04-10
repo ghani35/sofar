@@ -1,0 +1,4 @@
+source;share/newcpppackage/local_setup.bash
+source;share/newcpppackage/local_setup.dsv
+source;share/newcpppackage/local_setup.sh
+source;share/newcpppackage/local_setup.zsh

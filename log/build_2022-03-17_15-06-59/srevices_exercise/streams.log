@@ -1,0 +1,25 @@
+[0.981s] Invoking command in '/home/ghani/my_ws/src/srevices_exercise': PYTHONPATH=/home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srevices_exercise build --build-base /home/ghani/my_ws/build/srevices_exercise/build install --prefix /home/ghani/my_ws/install/srevices_exercise --record /home/ghani/my_ws/build/srevices_exercise/install.log --single-version-externally-managed
+[1.294s] running egg_info
+[1.295s] writing ../../build/srevices_exercise/srevices_exercise.egg-info/PKG-INFO
+[1.296s] writing dependency_links to ../../build/srevices_exercise/srevices_exercise.egg-info/dependency_links.txt
+[1.296s] writing entry points to ../../build/srevices_exercise/srevices_exercise.egg-info/entry_points.txt
+[1.297s] writing requirements to ../../build/srevices_exercise/srevices_exercise.egg-info/requires.txt
+[1.297s] writing top-level names to ../../build/srevices_exercise/srevices_exercise.egg-info/top_level.txt
+[1.353s] reading manifest file '../../build/srevices_exercise/srevices_exercise.egg-info/SOURCES.txt'
+[1.354s] writing manifest file '../../build/srevices_exercise/srevices_exercise.egg-info/SOURCES.txt'
+[1.355s] running build
+[1.355s] running build_py
+[1.356s] copying srevices_exercise/kill_client.py -> /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise
+[1.357s] running install
+[1.358s] running install_lib
+[1.360s] copying /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise/kill_client.py -> /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise
+[1.362s] byte-compiling /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise/kill_client.py to kill_client.cpython-38.pyc
+[1.364s] running install_data
+[1.365s] running install_egg_info
+[1.369s] removing '/home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise-0.0.0-py3.8.egg-info' (and everything under it)
+[1.369s] Copying ../../build/srevices_exercise/srevices_exercise.egg-info to /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise-0.0.0-py3.8.egg-info
+[1.370s] running install_scripts
+[1.401s] Installing kill_client script to /home/ghani/my_ws/install/srevices_exercise/lib/srevices_exercise
+[1.401s] Installing spawn_client script to /home/ghani/my_ws/install/srevices_exercise/lib/srevices_exercise
+[1.403s] writing list of installed files to '/home/ghani/my_ws/build/srevices_exercise/install.log'
+[1.440s] Invoked command in '/home/ghani/my_ws/src/srevices_exercise' returned '0': PYTHONPATH=/home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/srevices_exercise build --build-base /home/ghani/my_ws/build/srevices_exercise/build install --prefix /home/ghani/my_ws/install/srevices_exercise --record /home/ghani/my_ws/build/srevices_exercise/install.log --single-version-externally-managed

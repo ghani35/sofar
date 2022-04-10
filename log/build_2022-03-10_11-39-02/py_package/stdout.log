@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/py_package/py_package.egg-info
+writing ../build/py_package/py_package.egg-info/PKG-INFO
+writing dependency_links to ../build/py_package/py_package.egg-info/dependency_links.txt
+writing entry points to ../build/py_package/py_package.egg-info/entry_points.txt
+writing requirements to ../build/py_package/py_package.egg-info/requires.txt
+writing top-level names to ../build/py_package/py_package.egg-info/top_level.txt
+writing manifest file '../build/py_package/py_package.egg-info/SOURCES.txt'
+reading manifest file '../build/py_package/py_package.egg-info/SOURCES.txt'
+writing manifest file '../build/py_package/py_package.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ghani/my_ws/build/py_package/build
+creating /home/ghani/my_ws/build/py_package/build/lib
+creating /home/ghani/my_ws/build/py_package/build/lib/py_package
+copying py_package/__init__.py -> /home/ghani/my_ws/build/py_package/build/lib/py_package
+running install
+running install_lib
+creating /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package
+copying /home/ghani/my_ws/build/py_package/build/lib/py_package/__init__.py -> /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package
+byte-compiling /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ghani/my_ws/install/py_package/share/ament_index
+creating /home/ghani/my_ws/install/py_package/share/ament_index/resource_index
+creating /home/ghani/my_ws/install/py_package/share/ament_index/resource_index/packages
+copying resource/py_package -> /home/ghani/my_ws/install/py_package/share/ament_index/resource_index/packages
+copying package.xml -> /home/ghani/my_ws/install/py_package/share/py_package
+running install_egg_info
+Copying ../build/py_package/py_package.egg-info to /home/ghani/my_ws/install/py_package/lib/python3.8/site-packages/py_package-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ghani/my_ws/build/py_package/install.log'

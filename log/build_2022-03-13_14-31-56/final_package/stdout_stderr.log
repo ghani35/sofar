@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target controllercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   40 |     void topic_callback([01;35m[Kconst turtlesim::msg::Pose::SharedPtr current[m[K) const
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable controllercpp[0m
+[100%] Built target controllercpp
+-- Install configuration: ""
+-- Installing: /home/ghani/my_ws/install/final_package/lib/final_package/controllercpp
+-- Set runtime path of "/home/ghani/my_ws/install/final_package/lib/final_package/controllercpp" to ""
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/package_run_dependencies/final_package
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/parent_prefix_path/final_package
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.sh
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.bash
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.sh
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.zsh
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.dsv
+-- Installing: /home/ghani/my_ws/install/final_package/share/final_package/package.dsv
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/packages/final_package
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig.cmake
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig-version.cmake
+-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/package.xml

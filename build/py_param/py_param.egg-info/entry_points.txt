@@ -1,0 +1,4 @@
+[console_scripts]
+parameter = py_param.parameter:main
+talker = py_param.publisher:main
+

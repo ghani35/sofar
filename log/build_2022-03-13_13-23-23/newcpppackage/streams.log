@@ -1,0 +1,26 @@
+[0.013s] Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6
+[0.063s] [35m[1mScanning dependencies of target listnercpp[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/listnercpp.dir/src/sub.cpp.o[0m
+[6.635s] [100%] [32m[1mLinking CXX executable listnercpp[0m
+[6.933s] [100%] Built target listnercpp
+[6.949s] Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6
+[6.991s] Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/newcpppackage
+[6.999s] -- Install configuration: ""
+[7.000s] -- Installing: /home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp
+[7.002s] -- Set runtime path of "/home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp" to ""
+[7.002s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/package_run_dependencies/newcpppackage
+[7.003s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/parent_prefix_path/newcpppackage
+[7.003s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.sh
+[7.003s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.dsv
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.sh
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.dsv
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.bash
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.sh
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.zsh
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.dsv
+[7.004s] -- Installing: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.dsv
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/packages/newcpppackage
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig.cmake
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig-version.cmake
+[7.004s] -- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.xml
+[7.006s] Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/newcpppackage

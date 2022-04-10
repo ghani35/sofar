@@ -1,0 +1,22 @@
+[0.565s] Invoking command in '/home/ghani/my_ws/src/action_py': PYTHONPATH=/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ghani/my_ws/build/action_py/build install --prefix /home/ghani/my_ws/install/action_py --record /home/ghani/my_ws/build/action_py/install.log --single-version-externally-managed
+[0.749s] running egg_info
+[0.750s] writing ../../build/action_py/action_py.egg-info/PKG-INFO
+[0.750s] writing dependency_links to ../../build/action_py/action_py.egg-info/dependency_links.txt
+[0.750s] writing entry points to ../../build/action_py/action_py.egg-info/entry_points.txt
+[0.751s] writing requirements to ../../build/action_py/action_py.egg-info/requires.txt
+[0.751s] writing top-level names to ../../build/action_py/action_py.egg-info/top_level.txt
+[0.784s] reading manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[0.784s] writing manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'
+[0.784s] running build
+[0.785s] running build_py
+[0.785s] running install
+[0.785s] running install_lib
+[0.787s] running install_data
+[0.787s] running install_egg_info
+[0.789s] removing '/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info' (and everything under it)
+[0.789s] Copying ../../build/action_py/action_py.egg-info to /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info
+[0.790s] running install_scripts
+[0.806s] Installing action_client script to /home/ghani/my_ws/install/action_py/lib/action_py
+[0.807s] Installing action_server script to /home/ghani/my_ws/install/action_py/lib/action_py
+[0.807s] writing list of installed files to '/home/ghani/my_ws/build/action_py/install.log'
+[0.834s] Invoked command in '/home/ghani/my_ws/src/action_py' returned '0': PYTHONPATH=/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/action_py build --build-base /home/ghani/my_ws/build/action_py/build install --prefix /home/ghani/my_ws/install/action_py --record /home/ghani/my_ws/build/action_py/install.log --single-version-externally-managed

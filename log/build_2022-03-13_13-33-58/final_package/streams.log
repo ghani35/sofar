@@ -1,0 +1,78 @@
+[0.015s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/final_package -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/final_package
+[0.070s] -- The C compiler identification is GNU 9.3.0
+[0.121s] -- The CXX compiler identification is GNU 9.3.0
+[0.124s] -- Check for working C compiler: /usr/bin/cc
+[0.196s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.197s] -- Detecting C compiler ABI info
+[0.267s] -- Detecting C compiler ABI info - done
+[0.277s] -- Detecting C compile features
+[0.277s] -- Detecting C compile features - done
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++
+[0.360s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.361s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.455s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.476s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.476s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.543s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.584s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.679s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.706s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.778s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.831s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.833s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.851s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.851s] -- Looking for pthread.h
+[0.924s] -- Looking for pthread.h - found
+[0.925s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.002s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.002s] -- Looking for pthread_create in pthreads
+[1.065s] -- Looking for pthread_create in pthreads - not found
+[1.065s] -- Looking for pthread_create in pthread
+[1.138s] -- Looking for pthread_create in pthread - found
+[1.139s] -- Found Threads: TRUE  
+[1.278s] -- Found turtlesim: 1.3.3 (/opt/ros/galactic/share/turtlesim/cmake)
+[1.379s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.441s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.442s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.442s] -- Configured cppcheck include dirs: 
+[1.442s] -- Configured cppcheck exclude dirs and/or files: 
+[1.443s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.443s] -- Configured cpplint exclude dirs and/or files: 
+[1.443s] -- Added test 'lint_cmake' to check CMake code style
+[1.444s] -- Added test 'uncrustify' to check C / C++ code style
+[1.444s] -- Configured uncrustify additional arguments: 
+[1.444s] -- Added test 'xmllint' to check XML markup files
+[1.447s] -- Configuring done
+[1.457s] -- Generating done
+[1.458s] -- Build files have been written to: /home/ghani/my_ws/build/final_package
+[1.467s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/final_package -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/final_package
+[1.470s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[1.513s] [35m[1mScanning dependencies of target controllercpp[0m
+[1.545s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[8.762s] [100%] [32m[1mLinking CXX executable controllercpp[0m
+[9.059s] [100%] Built target controllercpp
+[9.075s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[9.120s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/final_package
+[9.128s] -- Install configuration: ""
+[9.128s] -- Installing: /home/ghani/my_ws/install/final_package/lib/final_package/controllercpp
+[9.131s] -- Set runtime path of "/home/ghani/my_ws/install/final_package/lib/final_package/controllercpp" to ""
+[9.131s] -- Installing: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/package_run_dependencies/final_package
+[9.132s] -- Installing: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/parent_prefix_path/final_package
+[9.132s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.sh
+[9.132s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.dsv
+[9.132s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.sh
+[9.133s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.dsv
+[9.133s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.bash
+[9.133s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.sh
+[9.133s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.zsh
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.dsv
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/package.dsv
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/packages/final_package
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig.cmake
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig-version.cmake
+[9.134s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/package.xml
+[9.137s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/final_package

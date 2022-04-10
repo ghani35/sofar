@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target controllercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:23:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublishername_[m[K’ does not name a type
+   23 | [01;31m[Kpublishername_[m[K = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:56:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kvelocity[m[K’ was not declared in this scope
+   56 |        [01;31m[Kvelocity[m[K.linear.x=0.0;
+      |        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:43:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   43 |     void topic_callback([01;35m[Kconst turtlesim::msg::Pose::SharedPtr current[m[K) const
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

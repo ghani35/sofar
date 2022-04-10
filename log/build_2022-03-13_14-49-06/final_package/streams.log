@@ -1,0 +1,17 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[0.064s] [35m[1mScanning dependencies of target controllercpp[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[1.887s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:22:8:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointGoal[m[K’ does not name a type
+[1.887s]    22 |        [01;31m[KwaypointGoal[m[K.x=x_goal;
+[1.887s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[1.888s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:23:8:[m[K [01;31m[Kerror: [m[K‘[01m[KwaypointGoal[m[K’ does not name a type
+[1.888s]    23 |        [01;31m[KwaypointGoal[m[K.y=y_goal;
+[1.888s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[2.180s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.180s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:43:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.180s]    43 |     void topic_callback([01;35m[Kconst turtlesim::msg::Pose::SharedPtr current[m[K) const
+[2.180s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[4.453s] make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+[4.454s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+[4.454s] make: *** [Makefile:141: all] Error 2
+[4.456s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6

@@ -1,0 +1,46 @@
+[0.020s] Invoking command in '/home/ghani/my_ws/build/cpp__package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/cpp__package -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/cpp__package
+[0.274s] -- The C compiler identification is GNU 9.3.0
+[0.616s] -- The CXX compiler identification is GNU 9.3.0
+[0.622s] -- Check for working C compiler: /usr/bin/cc
+[0.720s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.723s] -- Detecting C compiler ABI info
+[0.801s] -- Detecting C compiler ABI info - done
+[0.813s] -- Detecting C compile features
+[0.814s] -- Detecting C compile features - done
+[0.817s] -- Check for working CXX compiler: /usr/bin/c++
+[0.899s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.901s] -- Detecting CXX compiler ABI info
+[0.986s] -- Detecting CXX compiler ABI info - done
+[0.997s] -- Detecting CXX compile features
+[0.997s] -- Detecting CXX compile features - done
+[1.002s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.025s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.025s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.102s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.206s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.211s] -- Added test 'lint_cmake' to check CMake code style
+[1.215s] -- Added test 'xmllint' to check XML markup files
+[1.217s] -- Configuring done
+[1.219s] -- Generating done
+[1.221s] -- Build files have been written to: /home/ghani/my_ws/build/cpp__package
+[1.225s] Invoked command in '/home/ghani/my_ws/build/cpp__package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/cpp__package -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/cpp__package
+[1.228s] Invoking command in '/home/ghani/my_ws/build/cpp__package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp__package -- -j6 -l6
+[1.272s] Invoked command in '/home/ghani/my_ws/build/cpp__package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp__package -- -j6 -l6
+[1.316s] Invoking command in '/home/ghani/my_ws/build/cpp__package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp__package
+[1.325s] -- Install configuration: ""
+[1.325s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/package_run_dependencies/cpp__package
+[1.326s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/parent_prefix_path/cpp__package
+[1.326s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/ament_prefix_path.sh
+[1.326s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/ament_prefix_path.dsv
+[1.326s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/path.sh
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/path.dsv
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.bash
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.sh
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.zsh
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.dsv
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/package.dsv
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/packages/cpp__package
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/cmake/cpp__packageConfig.cmake
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/cmake/cpp__packageConfig-version.cmake
+[1.327s] -- Installing: /home/ghani/my_ws/install/cpp__package/share/cpp__package/package.xml
+[1.331s] Invoked command in '/home/ghani/my_ws/build/cpp__package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp__package

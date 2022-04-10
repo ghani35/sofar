@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[0.061s] [35m[1mScanning dependencies of target controllercpp[0m
+[0.086s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[2.061s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.061s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:50:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kx[m[K’
+[2.061s]    50 |       current.x=current2.[01;31m[Kx[m[K;
+[2.061s]       |                          [01;31m[K^[m[K
+[2.061s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:51:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<turtlesim::msg::Pose_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Ky[m[K’
+[2.061s]    51 |       current.y=current2.[01;31m[Ky[m[K;
+[2.061s]       |                          [01;31m[K^[m[K
+[2.068s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:57:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[2.068s]    57 |         double [01;35m[Kh[m[K =getDistanceToWaypoint();
+[2.068s]       |                [01;35m[K^[m[K
+[4.261s] make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+[4.262s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+[4.262s] make: *** [Makefile:141: all] Error 2
+[4.264s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6

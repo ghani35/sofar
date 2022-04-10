@@ -1,0 +1,16 @@
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:101:19:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  101 |       setVelocity([01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:44:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid MinimalSubscriber::setVelocity()[m[K’
+   44 |   void [01;36m[KsetVelocity[m[K() {
+      |        [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:111:64:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  111 |          << "Distance to Waypoint = " << getDistanceToWaypoint([01;31m[K)[m[K << " m"
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:86:11:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kdouble MinimalSubscriber::getDistanceToWaypoint()[m[K’
+   86 |    double [01;36m[KgetDistanceToWaypoint[m[K() {
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

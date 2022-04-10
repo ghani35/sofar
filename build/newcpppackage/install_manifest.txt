@@ -1,0 +1,16 @@
+/home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp
+/home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/package_run_dependencies/newcpppackage
+/home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/parent_prefix_path/newcpppackage
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.sh
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.dsv
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.sh
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.dsv
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.bash
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.sh
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.zsh
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.dsv
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.dsv
+/home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/packages/newcpppackage
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig.cmake
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig-version.cmake
+/home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.xml

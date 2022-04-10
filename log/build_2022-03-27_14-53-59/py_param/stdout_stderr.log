@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/py_param/py_param.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_param/py_param.egg-info/dependency_links.txt
+writing entry points to ../../build/py_param/py_param.egg-info/entry_points.txt
+writing requirements to ../../build/py_param/py_param.egg-info/requires.txt
+writing top-level names to ../../build/py_param/py_param.egg-info/top_level.txt
+reading manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+running build
+running build_py
+copying py_param/publisher.py -> /home/ghani/my_ws/build/py_param/build/lib/py_param
+running install
+running install_lib
+copying /home/ghani/my_ws/build/py_param/build/lib/py_param/publisher.py -> /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param
+byte-compiling /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param/publisher.py to publisher.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/py_param/py_param.egg-info to /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param-0.0.0-py3.8.egg-info
+running install_scripts
+Installing parameter script to /home/ghani/my_ws/install/py_param/lib/py_param
+Installing talker script to /home/ghani/my_ws/install/py_param/lib/py_param
+writing list of installed files to '/home/ghani/my_ws/build/py_param/install.log'

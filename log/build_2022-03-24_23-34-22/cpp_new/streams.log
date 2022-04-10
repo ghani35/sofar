@@ -1,0 +1,11 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.063s] [35m[1mScanning dependencies of target talker[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[0.194s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kcustomized_srv_msg/msg/num.hpp: No such file or directory
+[0.194s]     8 | #include [01;31m[K"customized_srv_msg/msg/num.hpp"[m[K
+[0.194s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.194s] compilation terminated.
+[0.196s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[0.196s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[0.196s] make: *** [Makefile:141: all] Error 2
+[0.199s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6

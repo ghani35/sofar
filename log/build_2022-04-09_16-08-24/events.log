@@ -1,0 +1,359 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000277] (-) JobUnselected: {'identifier': 'controller_py'}
+[0.000296] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000309] (-) JobUnselected: {'identifier': 'final_package'}
+[0.000321] (-) JobUnselected: {'identifier': 'py_package'}
+[0.000332] (-) JobUnselected: {'identifier': 'py_param'}
+[0.000343] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000354] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.000369] (customized_srv_msg) JobQueued: {'identifier': 'customized_srv_msg', 'dependencies': OrderedDict()}
+[0.000385] (customized_srv_msg) JobStarted: {'identifier': 'customized_srv_msg'}
+[0.012072] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'cmake'}
+[0.013821] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'build'}
+[0.013910] (customized_srv_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/customized_srv_msg', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/customized_srv_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9c8d1841-5342-4305-b43d-75960d6bd203'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/customized_srv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.044310] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.064797] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.064973] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099053] (-) TimerEvent: {}
+[0.119971] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.121646] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.124787] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.200280] (-) TimerEvent: {}
+[0.250796] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.291398] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.300522] (-) TimerEvent: {}
+[0.401305] (-) TimerEvent: {}
+[0.470912] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[0.501811] (-) TimerEvent: {}
+[0.587150] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.602475] (-) TimerEvent: {}
+[0.609175] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.632505] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.633001] (customized_srv_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[0.653508] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.653704] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.653760] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.676973] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.686559] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.688303] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.689168] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.692502] (customized_srv_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.702977] (-) TimerEvent: {}
+[0.746792] (customized_srv_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.753152] (customized_srv_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ghani/my_ws/build/customized_srv_msg\n'}
+[0.782463] (customized_srv_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.796096] (customized_srv_msg) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.803488] (-) TimerEvent: {}
+[0.904086] (-) TimerEvent: {}
+[1.005398] (-) TimerEvent: {}
+[1.105821] (-) TimerEvent: {}
+[1.206616] (-) TimerEvent: {}
+[1.226385] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_generator_c\x1b[0m\n'}
+[1.244752] (customized_srv_msg) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.251594] (customized_srv_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[1.251782] (customized_srv_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.259789] (customized_srv_msg) StdoutLine: {'line': b'[ 10%] Built target customized_srv_msg__cpp\n'}
+[1.273108] (customized_srv_msg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.273359] (customized_srv_msg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.273488] (customized_srv_msg) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.307068] (-) TimerEvent: {}
+[1.347983] (customized_srv_msg) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustomized_srv_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.390380] (customized_srv_msg) StdoutLine: {'line': b'[ 19%] Built target customized_srv_msg__rosidl_generator_c\n'}
+[1.402375] (customized_srv_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.403764] (customized_srv_msg) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.407421] (-) TimerEvent: {}
+[1.508168] (-) TimerEvent: {}
+[1.595591] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.608585] (-) TimerEvent: {}
+[1.610599] (customized_srv_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.615231] (customized_srv_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.685062] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.701037] (customized_srv_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[1.703196] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_c\x1b[0m\n'}
+[1.709758] (-) TimerEvent: {}
+[1.720095] (customized_srv_msg) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.740280] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.752512] (customized_srv_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.759960] (customized_srv_msg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[1.789754] (customized_srv_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[1.810706] (-) TimerEvent: {}
+[1.841431] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.849226] (customized_srv_msg) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.857789] (customized_srv_msg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[1.897640] (customized_srv_msg) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[1.898523] (customized_srv_msg) StdoutLine: {'line': b'[ 44%] Built target customized_srv_msg__rosidl_typesupport_c\n'}
+[1.909457] (customized_srv_msg) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[1.911162] (-) TimerEvent: {}
+[1.923975] (customized_srv_msg) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[1.926607] (customized_srv_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[1.938754] (customized_srv_msg) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[1.961688] (customized_srv_msg) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libcustomized_srv_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.997695] (customized_srv_msg) StdoutLine: {'line': b'[ 55%] Built target customized_srv_msg__rosidl_typesupport_introspection_c\n'}
+[2.007726] (customized_srv_msg) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.012233] (-) TimerEvent: {}
+[2.012520] (customized_srv_msg) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[2.112576] (-) TimerEvent: {}
+[2.213342] (-) TimerEvent: {}
+[2.314688] (-) TimerEvent: {}
+[2.415730] (-) TimerEvent: {}
+[2.430565] (customized_srv_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[2.475923] (customized_srv_msg) StdoutLine: {'line': b'[ 61%] Built target customized_srv_msg__rosidl_typesupport_cpp\n'}
+[2.513613] (customized_srv_msg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[2.516457] (-) TimerEvent: {}
+[2.603286] (customized_srv_msg) StdoutLine: {'line': b'[ 63%] Built target customized_srv_msg__rosidl_typesupport_introspection_cpp\n'}
+[2.617164] (-) TimerEvent: {}
+[2.643960] (customized_srv_msg) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[2.717539] (-) TimerEvent: {}
+[2.746581] (customized_srv_msg) StdoutLine: {'line': b'[ 65%] Built target customized_srv_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[2.759410] (customized_srv_msg) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.817991] (-) TimerEvent: {}
+[2.919157] (-) TimerEvent: {}
+[3.019821] (-) TimerEvent: {}
+[3.120679] (-) TimerEvent: {}
+[3.140516] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.160780] (customized_srv_msg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customized_srv_msg/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[3.161054] (customized_srv_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customized_srv_msg/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[3.161181] (customized_srv_msg) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/customized_srv_msg/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[3.221011] (-) TimerEvent: {}
+[3.321840] (-) TimerEvent: {}
+[3.422380] (-) TimerEvent: {}
+[3.523386] (-) TimerEvent: {}
+[3.533266] (customized_srv_msg) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.623615] (-) TimerEvent: {}
+[3.636286] (customized_srv_msg) StdoutLine: {'line': b'[ 76%] Built target customized_srv_msg__rosidl_typesupport_fastrtps_c\n'}
+[3.661021] (customized_srv_msg) StdoutLine: {'line': b'[ 76%] Built target customized_srv_msg\n'}
+[3.683931] (customized_srv_msg) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.724634] (-) TimerEvent: {}
+[3.825379] (-) TimerEvent: {}
+[3.926468] (-) TimerEvent: {}
+[4.027620] (-) TimerEvent: {}
+[4.128548] (-) TimerEvent: {}
+[4.229399] (-) TimerEvent: {}
+[4.330520] (-) TimerEvent: {}
+[4.432012] (-) TimerEvent: {}
+[4.532566] (-) TimerEvent: {}
+[4.569421] (customized_srv_msg) StdoutLine: {'line': b'[ 78%] Built target customized_srv_msg__py\n'}
+[4.581645] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__python\x1b[0m\n'}
+[4.600605] (customized_srv_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__python.dir/rosidl_generator_py/customized_srv_msg/msg/_num_s.c.o\x1b[0m\n'}
+[4.600787] (customized_srv_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__python.dir/rosidl_generator_py/customized_srv_msg/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[4.601087] (customized_srv_msg) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__python.dir/rosidl_generator_py/customized_srv_msg/action/_fibonacci_s.c.o\x1b[0m\n'}
+[4.633202] (-) TimerEvent: {}
+[4.730840] (customized_srv_msg) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/customized_srv_msg/libcustomized_srv_msg__python.so\x1b[0m\n'}
+[4.733939] (-) TimerEvent: {}
+[4.777233] (customized_srv_msg) StdoutLine: {'line': b'[ 87%] Built target customized_srv_msg__python\n'}
+[4.790130] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.790500] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.790643] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.807167] (customized_srv_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/customized_srv_msg/_customized_srv_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.807447] (customized_srv_msg) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/customized_srv_msg/_customized_srv_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.808192] (customized_srv_msg) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/customized_srv_msg/_customized_srv_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.834836] (-) TimerEvent: {}
+[4.920326] (customized_srv_msg) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.920712] (customized_srv_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.921702] (customized_srv_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.935749] (-) TimerEvent: {}
+[4.960713] (customized_srv_msg) StdoutLine: {'line': b'[100%] Built target customized_srv_msg__rosidl_typesupport_c__pyext\n'}
+[4.960909] (customized_srv_msg) StdoutLine: {'line': b'[100%] Built target customized_srv_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[4.988305] (customized_srv_msg) StdoutLine: {'line': b'[100%] Built target customized_srv_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.000883] (customized_srv_msg) CommandEnded: {'returncode': 0}
+[5.036589] (-) TimerEvent: {}
+[5.137416] (-) TimerEvent: {}
+[5.147467] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'install'}
+[5.158742] (customized_srv_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ghani/my_ws/build/customized_srv_msg'], 'cwd': '/home/ghani/my_ws/build/customized_srv_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9c8d1841-5342-4305-b43d-75960d6bd203'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/customized_srv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[5.168151] (customized_srv_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.169551] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/ament_index/resource_index/rosidl_interfaces/customized_srv_msg\n'}
+[5.169776] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.170036] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.170341] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/add_three_ints.h\n'}
+[5.170430] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.170482] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__functions.h\n'}
+[5.170532] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__functions.c\n'}
+[5.170580] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__type_support.h\n'}
+[5.170628] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__struct.h\n'}
+[5.170675] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.170855] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/goal.h\n'}
+[5.171037] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/fibonacci.h\n'}
+[5.171145] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.171201] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__functions.h\n'}
+[5.171337] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__functions.c\n'}
+[5.171469] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__type_support.h\n'}
+[5.171583] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__functions.c\n'}
+[5.171838] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__struct.h\n'}
+[5.171898] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__functions.h\n'}
+[5.172344] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__struct.h\n'}
+[5.172534] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__type_support.h\n'}
+[5.172613] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.172864] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.173028] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/num.h\n'}
+[5.173168] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.173447] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__struct.h\n'}
+[5.173592] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__type_support.h\n'}
+[5.173698] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__functions.c\n'}
+[5.173799] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__functions.h\n'}
+[5.174145] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/library_path.sh\n'}
+[5.174430] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/library_path.dsv\n'}
+[5.174742] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_generator_c.so\n'}
+[5.174804] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_generator_c.so" to ""\n'}
+[5.174972] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.175077] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.175167] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.175220] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[5.175487] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.175557] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.175607] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[5.175810] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.175865] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.175968] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.176092] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[5.176218] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[5.176489] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.176553] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.176712] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.177050] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.177187] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/dds_fastrtps\n'}
+[5.177327] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.177525] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.177582] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.177720] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/dds_fastrtps\n'}
+[5.177956] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.178161] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.178438] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.178601] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.178741] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.179100] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.179163] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/dds_fastrtps\n'}
+[5.179470] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.179537] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.179588] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.179636] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.179825] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.180069] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[5.180139] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__type_support.c\n'}
+[5.180190] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.180236] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.180302] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__rosidl_typesupport_introspection_c.h\n'}
+[5.180397] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__type_support.c\n'}
+[5.180528] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__type_support.c\n'}
+[5.180806] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[5.180888] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.180974] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.181036] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.181084] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__type_support.c\n'}
+[5.181132] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[5.181179] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_introspection_c.so\n'}
+[5.181225] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.181271] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_c.so\n'}
+[5.181318] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_c.so" to ""\n'}
+[5.181363] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.181408] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.181454] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/add_three_ints.hpp\n'}
+[5.181499] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.181555] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__builder.hpp\n'}
+[5.181601] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__struct.hpp\n'}
+[5.181647] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__traits.hpp\n'}
+[5.181693] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.181738] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/fibonacci.hpp\n'}
+[5.181784] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/goal.hpp\n'}
+[5.181829] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.181874] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__builder.hpp\n'}
+[5.181921] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__traits.hpp\n'}
+[5.182013] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__struct.hpp\n'}
+[5.182064] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__traits.hpp\n'}
+[5.182110] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__builder.hpp\n'}
+[5.182155] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__struct.hpp\n'}
+[5.182201] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.182246] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/num.hpp\n'}
+[5.182292] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.182344] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__struct.hpp\n'}
+[5.182391] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__builder.hpp\n'}
+[5.182441] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__traits.hpp\n'}
+[5.182487] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg\n'}
+[5.182533] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv\n'}
+[5.182578] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail\n'}
+[5.182623] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.182669] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/srv/detail/add_three_ints__type_support.cpp\n'}
+[5.182715] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action\n'}
+[5.182761] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail\n'}
+[5.182806] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__type_support.cpp\n'}
+[5.182852] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__type_support.cpp\n'}
+[5.182897] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.182985] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/action/detail/goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.183047] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg\n'}
+[5.183093] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail\n'}
+[5.183140] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__type_support.cpp\n'}
+[5.183192] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/include/customized_srv_msg/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.183238] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[5.183284] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.183336] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_cpp.so\n'}
+[5.183382] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[5.183430] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/pythonpath.sh\n'}
+[5.183478] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/pythonpath.dsv\n'}
+[5.183523] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/__init__.py\n'}
+[5.208816] (customized_srv_msg) StdoutLine: {'line': b"Compiling '/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/__init__.py'...\n"}
+[5.212827] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/msg\n'}
+[5.213150] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/msg/_num_s.c\n'}
+[5.213217] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/msg/__init__.py\n'}
+[5.213268] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/msg/_num.py\n'}
+[5.213608] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/srv\n'}
+[5.213720] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/srv/_add_three_ints.py\n'}
+[5.213864] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/srv/__init__.py\n'}
+[5.213941] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/srv/_add_three_ints_s.c\n'}
+[5.214220] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/action\n'}
+[5.214377] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/action/__init__.py\n'}
+[5.214435] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/action/_fibonacci_s.c\n'}
+[5.214723] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/action/_fibonacci.py\n'}
+[5.215083] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.215375] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.215915] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.216607] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.216925] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[5.217449] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages/customized_srv_msg/customized_srv_msg_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[5.217876] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__python.so\n'}
+[5.217979] (customized_srv_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/customized_srv_msg/lib/libcustomized_srv_msg__python.so" to ""\n'}
+[5.218210] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/msg/Num.idl\n'}
+[5.218310] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/srv/AddThreeInts.idl\n'}
+[5.218409] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/action/Fibonacci.idl\n'}
+[5.218754] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/msg/Num.msg\n'}
+[5.218883] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/srv/AddThreeInts.srv\n'}
+[5.219053] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/srv/AddThreeInts_Request.msg\n'}
+[5.219159] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/srv/AddThreeInts_Response.msg\n'}
+[5.219233] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/action/Fibonacci.action\n'}
+[5.219420] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/ament_index/resource_index/package_run_dependencies/customized_srv_msg\n'}
+[5.219546] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/ament_index/resource_index/parent_prefix_path/customized_srv_msg\n'}
+[5.220154] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/ament_prefix_path.sh\n'}
+[5.220469] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/ament_prefix_path.dsv\n'}
+[5.220659] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/path.sh\n'}
+[5.220891] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/environment/path.dsv\n'}
+[5.221071] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/local_setup.bash\n'}
+[5.221212] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/local_setup.sh\n'}
+[5.221446] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/local_setup.zsh\n'}
+[5.221595] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/local_setup.dsv\n'}
+[5.221765] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/package.dsv\n'}
+[5.221926] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/ament_index/resource_index/packages/customized_srv_msg\n'}
+[5.222091] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_generator_cExport.cmake\n'}
+[5.222254] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.222420] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.222709] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.222868] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_cExport.cmake\n'}
+[5.223101] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.223192] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_generator_cppExport.cmake\n'}
+[5.223247] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.223296] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.223443] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_cppExport.cmake\n'}
+[5.223586] (customized_srv_msg) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.223905] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[5.224220] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.224386] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.224547] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.224693] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.224934] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.225024] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.225076] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msgConfig.cmake\n'}
+[5.225127] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake/customized_srv_msgConfig-version.cmake\n'}
+[5.225261] (customized_srv_msg) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/package.xml\n'}
+[5.227712] (customized_srv_msg) CommandEnded: {'returncode': 0}
+[5.237971] (-) TimerEvent: {}
+[5.339351] (-) TimerEvent: {}
+[5.423041] (customized_srv_msg) JobEnded: {'identifier': 'customized_srv_msg', 'rc': 0}
+[5.423907] (-) EventReactorShutdown: {}

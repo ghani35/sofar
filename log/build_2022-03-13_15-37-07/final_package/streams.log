@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[0.062s] [35m[1mScanning dependencies of target controllercpp[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[7.651s] [100%] [32m[1mLinking CXX executable controllercpp[0m
+[8.041s] [100%] Built target controllercpp
+[8.053s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[8.102s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/final_package
+[8.110s] -- Install configuration: ""
+[8.111s] -- Installing: /home/ghani/my_ws/install/final_package/lib/final_package/controllercpp
+[8.113s] -- Set runtime path of "/home/ghani/my_ws/install/final_package/lib/final_package/controllercpp" to ""
+[8.113s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/package_run_dependencies/final_package
+[8.113s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/parent_prefix_path/final_package
+[8.114s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.sh
+[8.115s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.dsv
+[8.115s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.sh
+[8.115s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.dsv
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.bash
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.sh
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.zsh
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.dsv
+[8.116s] -- Installing: /home/ghani/my_ws/install/final_package/share/final_package/package.dsv
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/packages/final_package
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig.cmake
+[8.116s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig-version.cmake
+[8.117s] -- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/package.xml
+[8.120s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/final_package

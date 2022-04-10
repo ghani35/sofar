@@ -1,0 +1,4 @@
+/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:msg/Num.idl
+/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:srv/AddThreeInts.idl
+/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:action/Fibonacci.idl
+/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:action/Control.idl

@@ -1,0 +1,79 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000559] (-) JobUnselected: {'identifier': 'controller_py'}
+[0.000612] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000630] (-) JobUnselected: {'identifier': 'final_package'}
+[0.000678] (-) JobUnselected: {'identifier': 'py_package'}
+[0.000695] (-) JobUnselected: {'identifier': 'py_param'}
+[0.000740] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000757] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.000806] (customized_srv_msg) JobQueued: {'identifier': 'customized_srv_msg', 'dependencies': OrderedDict()}
+[0.000855] (customized_srv_msg) JobStarted: {'identifier': 'customized_srv_msg'}
+[0.011756] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'cmake'}
+[0.013634] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'build'}
+[0.013716] (customized_srv_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/customized_srv_msg', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/customized_srv_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9c8d1841-5342-4305-b43d-75960d6bd203'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/customized_srv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.043728] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.064151] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.064332] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098779] (-) TimerEvent: {}
+[0.118299] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.120006] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.123125] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.198933] (-) TimerEvent: {}
+[0.249349] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.290154] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.299977] (-) TimerEvent: {}
+[0.400811] (-) TimerEvent: {}
+[0.462706] (customized_srv_msg) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[0.462982] (customized_srv_msg) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[0.463101] (customized_srv_msg) StderrLine: {'line': b'  customized_srv_msg --arguments-file\n'}
+[0.463494] (customized_srv_msg) StderrLine: {'line': b'  /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter__arguments__customized_srv_msg.json\n'}
+[0.463571] (customized_srv_msg) StderrLine: {'line': b'  --output-dir\n'}
+[0.463620] (customized_srv_msg) StderrLine: {'line': b'  /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg\n'}
+[0.463668] (customized_srv_msg) StderrLine: {'line': b'  --output-file\n'}
+[0.463715] (customized_srv_msg) StderrLine: {'line': b'  /home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg.idls)\n'}
+[0.463762] (customized_srv_msg) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.463898] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.463999] (customized_srv_msg) StderrLine: {'line': b"  Error processing 'int sequence' of 'customized_srv_msg/Fibonacci_Result':\n"}
+[0.464153] (customized_srv_msg) StderrLine: {'line': b"  ''int' is an invalid message name.  It should have the pattern\n"}
+[0.464270] (customized_srv_msg) StderrLine: {'line': b"  '^[A-Z][A-Za-z0-9]*$''\n"}
+[0.464589] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.464647] (customized_srv_msg) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.464695] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.464741] (customized_srv_msg) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[0.464788] (customized_srv_msg) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.464834] (customized_srv_msg) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[0.464880] (customized_srv_msg) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.464926] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.464973] (customized_srv_msg) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.465019] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.465065] (customized_srv_msg) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.465111] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[0.465158] (customized_srv_msg) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[0.465268] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[0.465324] (customized_srv_msg) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[0.465373] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 894, in parse_action_string\n'}
+[0.465420] (customized_srv_msg) StderrLine: {'line': b'      result_message = parse_message_string(\n'}
+[0.465466] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string\n'}
+[0.465512] (customized_srv_msg) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.465559] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__\n'}
+[0.465605] (customized_srv_msg) StderrLine: {'line': b'      super(Type, self).__init__(\n'}
+[0.465651] (customized_srv_msg) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[0.465697] (customized_srv_msg) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[0.465743] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.465788] (customized_srv_msg) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'int' is an invalid message\n"}
+[0.465834] (customized_srv_msg) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[0.465880] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.465925] (customized_srv_msg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.465971] (customized_srv_msg) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.466017] (customized_srv_msg) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.466063] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.466109] (customized_srv_msg) StderrLine: {'line': b'\n'}
+[0.466154] (customized_srv_msg) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.466249] (customized_srv_msg) StdoutLine: {'line': b'See also "/home/ghani/my_ws/build/customized_srv_msg/CMakeFiles/CMakeOutput.log".\n'}
+[0.469695] (customized_srv_msg) StderrLine: {'line': b'make: *** [Makefile:1228: cmake_check_build_system] Error 1\n'}
+[0.471794] (customized_srv_msg) CommandEnded: {'returncode': 2}
+[0.501409] (-) TimerEvent: {}
+[0.602266] (-) TimerEvent: {}
+[0.638821] (customized_srv_msg) JobEnded: {'identifier': 'customized_srv_msg', 'rc': 2}
+[0.650475] (-) EventReactorShutdown: {}

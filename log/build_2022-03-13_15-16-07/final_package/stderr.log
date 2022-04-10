@@ -1,0 +1,4 @@
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:57:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kh[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   57 |         double [01;35m[Kh[m[K =getDistanceToWaypoint();
+      |                [01;35m[K^[m[K

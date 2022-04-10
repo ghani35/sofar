@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.002903] (-) JobUnselected: {'identifier': 'action_py'}
+[0.002975] (-) JobUnselected: {'identifier': 'controller_py'}
+[0.003100] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.003155] (-) JobUnselected: {'identifier': 'final_package'}
+[0.003173] (-) JobUnselected: {'identifier': 'py_package'}
+[0.003186] (-) JobUnselected: {'identifier': 'py_param'}
+[0.003231] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003247] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.003296] (customized_srv_msg) JobQueued: {'identifier': 'customized_srv_msg', 'dependencies': OrderedDict()}
+[0.003317] (customized_srv_msg) JobStarted: {'identifier': 'customized_srv_msg'}
+[0.015350] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'cmake'}
+[0.017179] (customized_srv_msg) JobProgress: {'identifier': 'customized_srv_msg', 'progress': 'build'}
+[0.017268] (customized_srv_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/customized_srv_msg', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/customized_srv_msg', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9c8d1841-5342-4305-b43d-75960d6bd203'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/customized_srv_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.048536] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)\n'}
+[0.067383] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.067604] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.100256] (-) TimerEvent: {}
+[0.120815] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.122325] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.125402] (customized_srv_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.200914] (-) TimerEvent: {}
+[0.253083] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.298819] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[0.302104] (-) TimerEvent: {}
+[0.402792] (-) TimerEvent: {}
+[0.482524] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[0.503295] (-) TimerEvent: {}
+[0.600980] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.604014] (-) TimerEvent: {}
+[0.622970] (customized_srv_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.647037] (customized_srv_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[0.647201] (customized_srv_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[0.668337] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.668502] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[0.668556] (customized_srv_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[0.691073] (customized_srv_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[0.700191] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.702143] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.702860] (customized_srv_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.704384] (-) TimerEvent: {}
+[0.706604] (customized_srv_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.768861] (customized_srv_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[0.775253] (customized_srv_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/ghani/my_ws/build/customized_srv_msg\n'}
+[0.803191] (customized_srv_msg) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.803526] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__cpp\x1b[0m\n'}
+[0.805062] (-) TimerEvent: {}
+[0.818924] (customized_srv_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.906688] (-) TimerEvent: {}
+[1.007465] (-) TimerEvent: {}
+[1.108031] (-) TimerEvent: {}
+[1.209190] (-) TimerEvent: {}
+[1.310819] (-) TimerEvent: {}
+[1.410086] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_generator_c\x1b[0m\n'}
+[1.411195] (-) TimerEvent: {}
+[1.425497] (customized_srv_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/msg/detail/num__functions.c.o\x1b[0m\n'}
+[1.425853] (customized_srv_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/action/detail/goal__functions.c.o\x1b[0m\n'}
+[1.425972] (customized_srv_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[1.426035] (customized_srv_msg) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_generator_c.dir/rosidl_generator_c/customized_srv_msg/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[1.496350] (customized_srv_msg) StdoutLine: {'line': b'[ 10%] Built target customized_srv_msg__cpp\n'}
+[1.509443] (customized_srv_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.510009] (customized_srv_msg) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.511891] (-) TimerEvent: {}
+[1.612572] (-) TimerEvent: {}
+[1.632808] (customized_srv_msg) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.668667] (customized_srv_msg) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libcustomized_srv_msg__rosidl_generator_c.so\x1b[0m\n'}
+[1.710818] (customized_srv_msg) StdoutLine: {'line': b'[ 18%] Built target customized_srv_msg__rosidl_generator_c\n'}
+[1.713099] (-) TimerEvent: {}
+[1.722693] (customized_srv_msg) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.724438] (customized_srv_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[1.813446] (-) TimerEvent: {}
+[1.894577] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.912154] (customized_srv_msg) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[1.913937] (-) TimerEvent: {}
+[1.915786] (customized_srv_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.014092] (-) TimerEvent: {}
+[2.115428] (-) TimerEvent: {}
+[2.127867] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_c\x1b[0m\n'}
+[2.145088] (customized_srv_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/msg/num__type_support.cpp.o\x1b[0m\n'}
+[2.155378] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.176136] (customized_srv_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[2.180309] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.182542] (customized_srv_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.215443] (customized_srv_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[2.215697] (-) TimerEvent: {}
+[2.250249] (customized_srv_msg) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[2.275790] (customized_srv_msg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[2.278854] (customized_srv_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/action/goal__type_support.cpp.o\x1b[0m\n'}
+[2.309113] (customized_srv_msg) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/customized_srv_msg/action/goal__type_support.cpp.o\x1b[0m\n'}
+[2.310011] (customized_srv_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target customized_srv_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.316169] (-) TimerEvent: {}
+[2.327832] (customized_srv_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[2.362973] (customized_srv_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libcustomized_srv_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.367063] (customized_srv_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[2.416863] (-) TimerEvent: {}
+[2.421523] (customized_srv_msg) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[2.429572] (customized_srv_msg) StdoutLine: {'line': b'[ 47%] Built target customized_srv_msg__rosidl_typesupport_c\n'}
+[2.448208] (customized_srv_msg) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/customized_srv_msg/action/detail/goal__type_support.c.o\x1b[0m\n'}
+[2.517931] (-) TimerEvent: {}
+[2.559741] (customized_srv_msg) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.559929] (customized_srv_msg) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libcustomized_srv_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.618881] (-) TimerEvent: {}
+[2.631919] (customized_srv_msg) StdoutLine: {'line': b'[ 52%] Built target customized_srv_msg__rosidl_typesupport_introspection_c\n'}
+[2.634792] (customized_srv_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[2.642829] (customized_srv_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[2.719715] (-) TimerEvent: {}
+[2.820612] (-) TimerEvent: {}
+[2.921787] (-) TimerEvent: {}
+[3.022349] (-) TimerEvent: {}
+[3.093247] (customized_srv_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[3.115713] (customized_srv_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_typesupport_cpp/customized_srv_msg/action/goal__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[3.115912] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids nested type \xe2\x80\x98\x1b[01m\x1b[KGoal\x1b[m\x1b[K\xe2\x80\x99 with same name as enclosing class [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.115972] (customized_srv_msg) StderrLine: {'line': b' 1026 |   using Goal = customized_srv_msg::action::Goal_Goal\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[3.116023] (customized_srv_msg) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.116071] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Goal = using Goal_Goal = struct customized_srv_msg::action::Goal_Goal_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has the same name as the class in which it is declared\n'}
+[3.122520] (-) TimerEvent: {}
+[3.223534] (-) TimerEvent: {}
+[3.233958] (customized_srv_msg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/build.make:131: CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/customized_srv_msg/action/goal__type_support.cpp.o] Error 1\n'}
+[3.234375] (customized_srv_msg) StderrLine: {'line': b'make[2]: *** Waiting for unfinished jobs....\n'}
+[3.240575] (customized_srv_msg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/customized_srv_msg__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[3.240998] (customized_srv_msg) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[3.248062] (customized_srv_msg) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/goal__type_support.cpp.o\x1b[0m\n'}
+[3.252953] (customized_srv_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/goal__type_support.cpp.o\x1b[0m\n'}
+[3.324164] (-) TimerEvent: {}
+[3.425272] (-) TimerEvent: {}
+[3.526040] (-) TimerEvent: {}
+[3.626697] (-) TimerEvent: {}
+[3.642943] (customized_srv_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[3.643488] (customized_srv_msg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/goal__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[3.643641] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids nested type \xe2\x80\x98\x1b[01m\x1b[KGoal\x1b[m\x1b[K\xe2\x80\x99 with same name as enclosing class [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.643756] (customized_srv_msg) StderrLine: {'line': b' 1026 |   using Goal = customized_srv_msg::action::Goal_Goal\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[3.643860] (customized_srv_msg) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.644242] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Goal = using Goal_Goal = struct customized_srv_msg::action::Goal_Goal_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has the same name as the class in which it is declared\n'}
+[3.644343] (customized_srv_msg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/goal__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[3.644398] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids nested type \xe2\x80\x98\x1b[01m\x1b[KGoal\x1b[m\x1b[K\xe2\x80\x99 with same name as enclosing class [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[3.644455] (customized_srv_msg) StderrLine: {'line': b' 1026 |   using Goal = customized_srv_msg::action::Goal_Goal\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[3.644502] (customized_srv_msg) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.644548] (customized_srv_msg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg/action/detail/goal__struct.hpp:1026:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Goal = using Goal_Goal = struct customized_srv_msg::action::Goal_Goal_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has the same name as the class in which it is declared\n'}
+[3.718341] (customized_srv_msg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/build.make:145: CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/customized_srv_msg/action/detail/goal__type_support.cpp.o] Error 1\n'}
+[3.719023] (customized_srv_msg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/customized_srv_msg__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[3.727124] (-) TimerEvent: {}
+[3.768141] (customized_srv_msg) StderrLine: {'line': b'make[2]: *** [CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/build.make:145: CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/customized_srv_msg/action/detail/dds_fastrtps/goal__type_support.cpp.o] Error 1\n'}
+[3.768661] (customized_srv_msg) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:380: CMakeFiles/customized_srv_msg__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[3.768794] (customized_srv_msg) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[3.772592] (customized_srv_msg) CommandEnded: {'returncode': 2}
+[3.828013] (-) TimerEvent: {}
+[3.929365] (-) TimerEvent: {}
+[3.972531] (customized_srv_msg) JobEnded: {'identifier': 'customized_srv_msg', 'rc': 2}
+[3.983776] (-) EventReactorShutdown: {}

@@ -1,0 +1,5 @@
+float32[] x 
+---
+int32 sequence
+---
+float32[] partial_sequence

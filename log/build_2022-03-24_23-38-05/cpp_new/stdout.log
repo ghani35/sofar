@@ -1,0 +1,22 @@
+[35m[1mScanning dependencies of target talker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable talker[0m
+[100%] Built target talker
+-- Install configuration: ""
+-- Installing: /home/ghani/my_ws/install/cpp_new/lib/cpp_new/talker
+-- Set runtime path of "/home/ghani/my_ws/install/cpp_new/lib/cpp_new/talker" to ""
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/package_run_dependencies/cpp_new
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/parent_prefix_path/cpp_new
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.sh
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.sh
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.bash
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.sh
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.zsh
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.dsv
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.dsv
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/packages/cpp_new
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig.cmake
+-- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig-version.cmake
+-- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.xml

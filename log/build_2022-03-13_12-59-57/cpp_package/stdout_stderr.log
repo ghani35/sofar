@@ -1,0 +1,31 @@
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+CMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findturtlesim_msgs.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "turtlesim_msgs", but CMake did not find one.
+
+  Could not find a package configuration file provided by "turtlesim_msgs"
+  with any of the following names:
+
+    turtlesim_msgsConfig.cmake
+    turtlesim_msgs-config.cmake
+
+  Add the installation prefix of "turtlesim_msgs" to CMAKE_PREFIX_PATH or set
+  "turtlesim_msgs_DIR" to a directory containing one of the above files.  If
+  "turtlesim_msgs" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeOutput.log".
+See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeError.log".
+make: *** [Makefile:266: cmake_check_build_system] Error 1

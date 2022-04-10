@@ -1,0 +1,49 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/cpp_new': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.064s] [35m[1mScanning dependencies of target talker[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[1.760s] In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+[1.760s]                  from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+[1.760s]                  from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+[1.761s]                  from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+[1.761s]                  from [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:6[m[K:
+[1.761s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[1.761s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:31:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kcustomized_srv_msg::msg::Num_<std::allocator<void> >::_num_type[m[K’ {aka ‘[01m[Klong int[m[K’} [[01;35m[K-Wformat=[m[K]
+[1.761s]    31 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Publishing: '%d'"[m[K, [32m[Kmessage.num[m[K);
+[1.761s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~[m[K
+[1.761s]       |                                                                   [32m[K|[m[K
+[1.761s]       |                                                                   [32m[Kcustomized_srv_msg::msg::Num_<std::allocator<void> >::_num_type {aka long int}[m[K
+[1.761s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:31:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[1.761s]    31 |       RCLCPP_INFO(this->get_logger(), "Publishing: '[01;36m[K%d[m[K'", message.num);
+[1.762s]       |                                                     [01;36m[K~^[m[K
+[1.762s]       |                                                      [01;36m[K|[m[K
+[1.762s]       |                                                      [01;36m[Kint[m[K
+[1.762s]       |                                                     [32m[K%ld[m[K
+[3.908s] [100%] [32m[1mLinking CXX executable talker[0m
+[4.085s] [100%] Built target talker
+[4.098s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '0': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[4.149s] Invoking command in '/home/ghani/my_ws/build/cpp_new': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_new
+[4.157s] -- Install configuration: ""
+[4.157s] -- Installing: /home/ghani/my_ws/install/cpp_new/lib/cpp_new/talker
+[4.158s] -- Set runtime path of "/home/ghani/my_ws/install/cpp_new/lib/cpp_new/talker" to ""
+[4.158s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/package_run_dependencies/cpp_new
+[4.158s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/parent_prefix_path/cpp_new
+[4.158s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.sh
+[4.158s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/ament_prefix_path.dsv
+[4.158s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.sh
+[4.159s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/environment/path.dsv
+[4.159s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.bash
+[4.159s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.sh
+[4.160s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.zsh
+[4.160s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/local_setup.dsv
+[4.160s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.dsv
+[4.160s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/ament_index/resource_index/packages/cpp_new
+[4.160s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig.cmake
+[4.160s] -- Up-to-date: /home/ghani/my_ws/install/cpp_new/share/cpp_new/cmake/cpp_newConfig-version.cmake
+[4.160s] -- Installing: /home/ghani/my_ws/install/cpp_new/share/cpp_new/package.xml
+[4.163s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '0': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_new

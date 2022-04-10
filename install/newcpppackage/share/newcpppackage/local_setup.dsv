@@ -1,0 +1,2 @@
+source;share/newcpppackage/environment/ament_prefix_path.sh
+source;share/newcpppackage/environment/path.sh

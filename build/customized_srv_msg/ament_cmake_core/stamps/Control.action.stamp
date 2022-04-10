@@ -1,0 +1,5 @@
+float32[2] x 
+---
+bool status
+---
+float32[] goal_distance

@@ -1,0 +1,5 @@
+[console_scripts]
+py_action_controller = controller_py.action_controller:main
+py_client = controller_py.client:main
+py_controller = controller_py.controller:main
+

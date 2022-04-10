@@ -1,0 +1,15 @@
+/home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/package_run_dependencies/cpp__package
+/home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/parent_prefix_path/cpp__package
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/ament_prefix_path.sh
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/ament_prefix_path.dsv
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/path.sh
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/environment/path.dsv
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.bash
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.sh
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.zsh
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/local_setup.dsv
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/package.dsv
+/home/ghani/my_ws/install/cpp__package/share/ament_index/resource_index/packages/cpp__package
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/cmake/cpp__packageConfig.cmake
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/cmake/cpp__packageConfig-version.cmake
+/home/ghani/my_ws/install/cpp__package/share/cpp__package/package.xml

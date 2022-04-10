@@ -1,0 +1,25 @@
+[0.558s] Invoking command in '/home/ghani/my_ws/src/py_param': PYTHONPATH=/home/ghani/my_ws/install/py_param/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_param build --build-base /home/ghani/my_ws/build/py_param/build install --prefix /home/ghani/my_ws/install/py_param --record /home/ghani/my_ws/build/py_param/install.log --single-version-externally-managed
+[0.742s] running egg_info
+[0.742s] writing ../../build/py_param/py_param.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/py_param/py_param.egg-info/dependency_links.txt
+[0.744s] writing entry points to ../../build/py_param/py_param.egg-info/entry_points.txt
+[0.744s] writing requirements to ../../build/py_param/py_param.egg-info/requires.txt
+[0.745s] writing top-level names to ../../build/py_param/py_param.egg-info/top_level.txt
+[0.776s] reading manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+[0.777s] writing manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+[0.777s] running build
+[0.777s] running build_py
+[0.777s] copying py_param/parameter.py -> /home/ghani/my_ws/build/py_param/build/lib/py_param
+[0.778s] running install
+[0.779s] running install_lib
+[0.780s] copying /home/ghani/my_ws/build/py_param/build/lib/py_param/parameter.py -> /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param
+[0.781s] byte-compiling /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param/parameter.py to parameter.cpython-38.pyc
+[0.783s] running install_data
+[0.783s] running install_egg_info
+[0.784s] removing '/home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param-0.0.0-py3.8.egg-info' (and everything under it)
+[0.785s] Copying ../../build/py_param/py_param.egg-info to /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param-0.0.0-py3.8.egg-info
+[0.785s] running install_scripts
+[0.802s] Installing parameter script to /home/ghani/my_ws/install/py_param/lib/py_param
+[0.802s] Installing talker script to /home/ghani/my_ws/install/py_param/lib/py_param
+[0.803s] writing list of installed files to '/home/ghani/my_ws/build/py_param/install.log'
+[0.829s] Invoked command in '/home/ghani/my_ws/src/py_param' returned '0': PYTHONPATH=/home/ghani/my_ws/install/py_param/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_param build --build-base /home/ghani/my_ws/build/py_param/build install --prefix /home/ghani/my_ws/install/py_param --record /home/ghani/my_ws/build/py_param/install.log --single-version-externally-managed

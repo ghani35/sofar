@@ -1,0 +1,2 @@
+Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/newcpppackage -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/newcpppackage
+Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/newcpppackage -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/newcpppackage

@@ -1,0 +1,8 @@
+[01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:30:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+   30 |       message.num=2
+      |                    [01;31m[K^[m[K
+      |                    [32m[K;[m[K
+make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

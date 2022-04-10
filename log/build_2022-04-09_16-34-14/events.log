@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000271] (-) JobUnselected: {'identifier': 'controller_py'}
+[0.000331] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000381] (-) JobUnselected: {'identifier': 'customized_srv_msg'}
+[0.000399] (-) JobUnselected: {'identifier': 'final_package'}
+[0.000445] (-) JobUnselected: {'identifier': 'py_package'}
+[0.000463] (-) JobUnselected: {'identifier': 'py_param'}
+[0.000509] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000526] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.000587] (action_py) JobQueued: {'identifier': 'action_py', 'dependencies': OrderedDict()}
+[0.000639] (action_py) JobStarted: {'identifier': 'action_py'}
+[0.098307] (-) TimerEvent: {}
+[0.199176] (-) TimerEvent: {}
+[0.300166] (-) TimerEvent: {}
+[0.400819] (-) TimerEvent: {}
+[0.501811] (-) TimerEvent: {}
+[0.560736] (action_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/action_py', 'build', '--build-base', '/home/ghani/my_ws/build/action_py/build', 'install', '--prefix', '/home/ghani/my_ws/install/action_py', '--record', '/home/ghani/my_ws/build/action_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/ghani/my_ws/src/action_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ghani', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1827', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/ghani', 'OLDPWD': '/home/ghani', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1653', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4371', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ghani', 'JOURNAL_STREAM': '8:58237', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ghani', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863', 'INVOCATION_ID': '9c853a19dfb34c08acdd63642b1626da', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:d4c808eb-8627-4de0-bd11-21dae908a945', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ghani/my_ws/build/action_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.602597] (-) TimerEvent: {}
+[0.703355] (-) TimerEvent: {}
+[0.744118] (action_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.744948] (action_py) StdoutLine: {'line': b'writing ../../build/action_py/action_py.egg-info/PKG-INFO\n'}
+[0.750126] (action_py) StdoutLine: {'line': b'writing dependency_links to ../../build/action_py/action_py.egg-info/dependency_links.txt\n'}
+[0.750895] (action_py) StdoutLine: {'line': b'writing entry points to ../../build/action_py/action_py.egg-info/entry_points.txt\n'}
+[0.751045] (action_py) StdoutLine: {'line': b'writing requirements to ../../build/action_py/action_py.egg-info/requires.txt\n'}
+[0.751103] (action_py) StdoutLine: {'line': b'writing top-level names to ../../build/action_py/action_py.egg-info/top_level.txt\n'}
+[0.783634] (action_py) StdoutLine: {'line': b"reading manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'\n"}
+[0.785018] (action_py) StdoutLine: {'line': b"writing manifest file '../../build/action_py/action_py.egg-info/SOURCES.txt'\n"}
+[0.786237] (action_py) StdoutLine: {'line': b'running build\n'}
+[0.786529] (action_py) StdoutLine: {'line': b'running build_py\n'}
+[0.787275] (action_py) StdoutLine: {'line': b'copying action_py/fibonacci_action_server.py -> /home/ghani/my_ws/build/action_py/build/lib/action_py\n'}
+[0.787708] (action_py) StdoutLine: {'line': b'copying action_py/fibonacci_client.py -> /home/ghani/my_ws/build/action_py/build/lib/action_py\n'}
+[0.788651] (action_py) StdoutLine: {'line': b'running install\n'}
+[0.789578] (action_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.790357] (action_py) StdoutLine: {'line': b'copying /home/ghani/my_ws/build/action_py/build/lib/action_py/fibonacci_action_server.py -> /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py\n'}
+[0.790563] (action_py) StdoutLine: {'line': b'copying /home/ghani/my_ws/build/action_py/build/lib/action_py/fibonacci_client.py -> /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py\n'}
+[0.791002] (action_py) StdoutLine: {'line': b'byte-compiling /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py/fibonacci_action_server.py to fibonacci_action_server.cpython-38.pyc\n'}
+[0.792509] (action_py) StdoutLine: {'line': b'byte-compiling /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py/fibonacci_client.py to fibonacci_client.cpython-38.pyc\n'}
+[0.793869] (action_py) StdoutLine: {'line': b'running install_data\n'}
+[0.794108] (action_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.795264] (action_py) StdoutLine: {'line': b"removing '/home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.795589] (action_py) StdoutLine: {'line': b'Copying ../../build/action_py/action_py.egg-info to /home/ghani/my_ws/install/action_py/lib/python3.8/site-packages/action_py-0.0.0-py3.8.egg-info\n'}
+[0.797306] (action_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.803662] (-) TimerEvent: {}
+[0.812927] (action_py) StdoutLine: {'line': b'Installing action_client script to /home/ghani/my_ws/install/action_py/lib/action_py\n'}
+[0.813450] (action_py) StdoutLine: {'line': b'Installing action_server script to /home/ghani/my_ws/install/action_py/lib/action_py\n'}
+[0.813772] (action_py) StdoutLine: {'line': b"writing list of installed files to '/home/ghani/my_ws/build/action_py/install.log'\n"}
+[0.838741] (action_py) CommandEnded: {'returncode': 0}
+[0.852733] (action_py) JobEnded: {'identifier': 'action_py', 'rc': 0}
+[0.854581] (-) EventReactorShutdown: {}

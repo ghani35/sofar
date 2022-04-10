@@ -1,0 +1,119 @@
+[35m[1mScanning dependencies of target controllercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:35:38:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kturtlesim::msg::Pose[m[K’ {aka ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’ in initialization
+   35 | float waypointGoal = turtlesim::msg::[01;31m[KPose()[m[K;
+      |                                      [01;31m[K^~~~~~[m[K
+      |                                      [01;31m[K|[m[K
+      |                                      [01;31m[Kturtlesim::msg::Pose {aka turtlesim::msg::Pose_<std::allocator<void> >}[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:36:33:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kturtlesim::msg::Pose[m[K’ {aka ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’ in initialization
+   36 | float current = turtlesim::msg::[01;31m[KPose()[m[K;
+      |                                 [01;31m[K^~~~~~[m[K
+      |                                 [01;31m[K|[m[K
+      |                                 [01;31m[Kturtlesim::msg::Pose {aka turtlesim::msg::Pose_<std::allocator<void> >}[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:37:40:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kgeometry_msgs::msg::Twist[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Twist_<std::allocator<void> >[m[K’} to ‘[01m[Kfloat[m[K’ in initialization
+   37 | float velCommand = geometry_msgs::msg::[01;31m[KTwist()[m[K;
+      |                                        [01;31m[K^~~~~~~[m[K
+      |                                        [01;31m[K|[m[K
+      |                                        [01;31m[Kgeometry_msgs::msg::Twist {aka geometry_msgs::msg::Twist_<std::allocator<void> >}[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kdouble MinimalSubscriber::getDistanceToWaypoint()[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:41:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   41 |   return sqrt(pow(waypointGoal.[01;31m[Kx[m[K - current.x, 2) + pow(
+      |                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:41:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   41 |   return sqrt(pow(waypointGoal.x - current.[01;31m[Kx[m[K, 2) + pow(
+      |                                            [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:42:18:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   42 |     waypointGoal.[01;31m[Ky[m[K - current.y, 2));
+      |                  [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:42:30:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   42 |     waypointGoal.y - current.[01;31m[Ky[m[K, 2));
+      |                              [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kdouble MinimalSubscriber::getHeadingError()[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:47:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   47 |   double deltaX = waypointGoal.[01;31m[Kx[m[K - current.x;
+      |                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:47:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   47 |   double deltaX = waypointGoal.x - current.[01;31m[Kx[m[K;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:48:32:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   48 |   double deltaY = waypointGoal.[01;31m[Ky[m[K - current.y;
+      |                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:48:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   48 |   double deltaY = waypointGoal.y - current.[01;31m[Ky[m[K;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:50:51:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktheta[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   50 |   double headingError = waypointHeading - current.[01;31m[Ktheta[m[K;
+      |                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::setVelocity()[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:69:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klinear[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   69 |         velCommand.[01;31m[Klinear[m[K.x = 0.0;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:70:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kangular[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   70 |         velCommand.[01;31m[Kangular[m[K.z = K_a  * headingError;
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:74:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klinear[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   74 |         velCommand.[01;31m[Klinear[m[K.x = K_l * distanceToWaypoint;
+      |                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:75:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kangular[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   75 |         velCommand.[01;31m[Kangular[m[K.z = 0.0;
+      |                    [01;31m[K^~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:80:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klinear[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   80 |      velCommand.[01;31m[Klinear[m[K.x = 0.0;
+      |                 [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:81:17:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kangular[m[K’ in ‘[01m[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kfloat[m[K’
+   81 |      velCommand.[01;31m[Kangular[m[K.z = 0.0;
+      |                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:90:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+   90 |       current.[01;31m[Kx[m[K=current2->x;
+      |               [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:91:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+   91 |       current.[01;31m[Ky[m[K=current2->y;
+      |               [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:92:15:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktheta[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+   92 |       current.[01;31m[Ktheta[m[K=current2->theta;
+      |               [01;31m[K^~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:93:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+   93 |       waypointGoal.[01;31m[Kx[m[K=x_goal;
+      |                    [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:94:20:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+   94 |       waypointGoal.[01;31m[Ky[m[K=y_goal;
+      |                    [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:96:19:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   96 |       setVelocity([01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:62:6:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid MinimalSubscriber::setVelocity()[m[K’
+   62 | void [01;36m[KsetVelocity[m[K() {
+      |      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:101:55:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+  101 |          cout << "Current (x,y) = " << "(" << current.[01;31m[Kx[m[K << "," << current.y << ")"
+      |                                                       [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:101:75:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::current[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+  101 |       cout << "Current (x,y) = " << "(" << current.x << "," << current.[01;31m[Ky[m[K << ")"
+      |                                                                        [01;31m[K^[m[K
+
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:103:56:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kx[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+  103 |          << "Waypoint (x,y) = " << "(" << waypointGoal.[01;31m[Kx[m[K << ","
+      |                                                        [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:104:26:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ky[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+  104 |          << waypointGoal.[01;31m[Ky[m[K << ")"
+      |                          [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:106:64:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  106 |          << "Distance to Waypoint = " << getDistanceToWaypoint([01;31m[K)[m[K << " m"
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kdouble MinimalSubscriber::getDistanceToWaypoint()[m[K’
+   40 | double [01;36m[KgetDistanceToWaypoint[m[K() {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:108:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Klinear[m[K’ in ‘[01m[K((const MinimalSubscriber*)this)->MinimalSubscriber::velCommand[m[K’, which is of non-class type ‘[01m[Kconst float[m[K’
+  108 |          << "Linear Velocity (x) = " << velCommand.[01;31m[Klinear[m[K.x << " m/s"
+      |                                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:119:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_goal[m[K’ was not declared in this scope
+  119 |   cin >> [01;31m[Kx_goal[m[K;
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:121:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_goal[m[K’ was not declared in this scope
+  121 |   cin >> [01;31m[Ky_goal[m[K;
+      |          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

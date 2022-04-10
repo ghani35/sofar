@@ -1,0 +1,15 @@
+[35m[1mScanning dependencies of target controllercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:50:20:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’
+   50 |        waypointGoal[01;31m[K->[m[Kx=x_goal;
+      |                    [01;31m[K^~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:52:14:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’
+   52 |  waypointGoal[01;31m[K->[m[Ky=y_goal;
+      |              [01;31m[K^~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:42:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcurrent[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   42 |     void topic_callback([01;35m[Kconst turtlesim::msg::Pose::SharedPtr current[m[K) const
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

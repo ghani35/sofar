@@ -1,0 +1,10 @@
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/install/strip.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/install/local.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/edit_cache.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/test.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/talker.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/install.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/list_install_components.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/rebuild_cache.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/cpp_new_uninstall.dir
+/home/ghani/my_ws/build/cpp_new/CMakeFiles/uninstall.dir

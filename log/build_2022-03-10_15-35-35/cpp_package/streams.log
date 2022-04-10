@@ -1,0 +1,49 @@
+[0.027s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.057s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.078s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.137s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.169s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.172s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.338s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.339s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.356s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.491s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.554s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.554s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.554s] -- Configured cppcheck include dirs: 
+[0.554s] -- Configured cppcheck exclude dirs and/or files: 
+[0.555s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.555s] -- Configured cpplint exclude dirs and/or files: 
+[0.556s] -- Added test 'lint_cmake' to check CMake code style
+[0.556s] -- Added test 'uncrustify' to check C / C++ code style
+[0.556s] -- Configured uncrustify additional arguments: 
+[0.556s] -- Added test 'xmllint' to check XML markup files
+[0.559s] -- Configuring done
+[0.568s] -- Generating done
+[0.571s] -- Build files have been written to: /home/ghani/my_ws/build/cpp_package
+[0.604s] [35m[1mScanning dependencies of target talkercpp[0m
+[0.815s] [ 50%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[5.844s] [100%] [32m[1mLinking CXX executable talkercpp[0m
+[6.022s] [100%] Built target talkercpp
+[6.038s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[6.085s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_package
+[6.094s] -- Install configuration: ""
+[6.094s] -- Installing: /home/ghani/my_ws/install/cpp_package/lib/cpp_package/talkercpp
+[6.095s] -- Set runtime path of "/home/ghani/my_ws/install/cpp_package/lib/cpp_package/talkercpp" to ""
+[6.095s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package
+[6.095s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package
+[6.096s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh
+[6.096s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv
+[6.096s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/path.sh
+[6.097s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/path.dsv
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.bash
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.sh
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.zsh
+[6.097s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.dsv
+[6.097s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/package.dsv
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/packages/cpp_package
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake
+[6.097s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake
+[6.098s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/package.xml
+[6.100s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_package

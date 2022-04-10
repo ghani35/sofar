@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.052s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.071s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.125s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.161s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.326s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.343s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.471s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.503s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.564s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.564s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.565s] -- Configured cppcheck include dirs: 
+[0.565s] -- Configured cppcheck exclude dirs and/or files: 
+[0.565s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.565s] -- Configured cpplint exclude dirs and/or files: 
+[0.565s] -- Added test 'lint_cmake' to check CMake code style
+[0.565s] -- Added test 'uncrustify' to check C / C++ code style
+[0.565s] -- Configured uncrustify additional arguments: 
+[0.565s] -- Added test 'xmllint' to check XML markup files
+[0.565s] -- Configuring done
+[0.574s] -- Generating done
+[0.577s] -- Build files have been written to: /home/ghani/my_ws/build/cpp_package
+[0.625s] [ 50%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[0.764s] [01m[K/home/ghani/my_ws/src/cpp_package/src/publisher_member_function.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[0.765s]    22 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[0.765s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.765s] compilation terminated.
+[0.767s] make[2]: *** [CMakeFiles/talkercpp.dir/build.make:63: CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o] Error 1
+[0.767s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talkercpp.dir/all] Error 2
+[0.767s] make: *** [Makefile:141: all] Error 2
+[0.769s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

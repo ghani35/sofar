@@ -1,0 +1,36 @@
+[0.018s] Invoking command in '/home/ghani/my_ws/build/cpp_new': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.047s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.122s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.155s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.270s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.320s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.339s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.469s] -- Found customized_srv_msg: 0.0.0 (/home/ghani/my_ws/install/customized_srv_msg/share/customized_srv_msg/cmake)
+[0.478s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[0.533s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.534s] -- Configured cppcheck include dirs: 
+[0.534s] -- Configured cppcheck exclude dirs and/or files: 
+[0.535s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.535s] -- Configured cpplint exclude dirs and/or files: 
+[0.535s] -- Added test 'lint_cmake' to check CMake code style
+[0.536s] -- Added test 'uncrustify' to check C / C++ code style
+[0.536s] -- Configured uncrustify additional arguments: 
+[0.536s] -- Added test 'xmllint' to check XML markup files
+[0.539s] -- Configuring done
+[0.551s] -- Generating done
+[0.554s] -- Build files have been written to: /home/ghani/my_ws/build/cpp_new
+[0.583s] [35m[1mScanning dependencies of target talker[0m
+[0.608s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher.cpp.o[0m
+[2.332s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[2.332s] [01m[K/home/ghani/my_ws/src/cpp_new/src/publisher.cpp:30:20:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[2.333s]    30 |       message.num=2
+[2.333s]       |                    [01;31m[K^[m[K
+[2.333s]       |                    [32m[K;[m[K
+[3.342s] make[2]: *** [CMakeFiles/talker.dir/build.make:63: CMakeFiles/talker.dir/src/publisher.cpp.o] Error 1
+[3.343s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talker.dir/all] Error 2
+[3.343s] make: *** [Makefile:141: all] Error 2
+[3.346s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '2': AMENT_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ghani/my_ws/install/customized_srv_msg:/opt/ros/galactic LD_LIBRARY_PATH=/home/ghani/my_ws/install/customized_srv_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ghani/my_ws/install/customized_srv_msg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6

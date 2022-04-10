@@ -1,0 +1,209 @@
+[0.267s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'controller_py']
+[0.267s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f7f1bf0d6a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['controller_py'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=6, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f7f1bf0d6a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f7f1bf0dbe0>)
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.280s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ghani/my_ws'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/action_py) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/action_py' with type 'ros.ament_python' and name 'action_py'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/controller_py) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controller_py' with type 'ros.ament_python' and name 'controller_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp_new) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp_new' with type 'ros.ament_cmake' and name 'cpp_new'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/customized_srv_msg) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/customized_srv_msg' with type 'ros.ament_cmake' and name 'customized_srv_msg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/final_package) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/final_package' with type 'ros.ament_cmake' and name 'final_package'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_package) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_package' with type 'ros.ament_python' and name 'py_package'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_param) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_param' with type 'ros.ament_python' and name 'py_param'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/py_srvcli) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py_srvcli' with type 'ros.ament_python' and name 'py_srvcli'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/srevices_exercise) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/srevices_exercise' with type 'ros.ament_python' and name 'srevices_exercise'
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.351s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.401s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'action_py' in 'src/action_py'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'customized_srv_msg' in 'src/customized_srv_msg'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'final_package' in 'src/final_package'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_package' in 'src/py_package'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_param' in 'src/py_param'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'py_srvcli' in 'src/py_srvcli'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'srevices_exercise' in 'src/srevices_exercise'
+[0.402s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'cpp_new' in 'src/cpp_new'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'controller_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'controller_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ghani/my_ws/build/controller_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ghani/my_ws/install/controller_py', 'merge_install': False, 'path': '/home/ghani/my_ws/src/controller_py', 'symlink_install': False, 'test_result_base': None}
+[0.414s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.419s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.420s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ghani/my_ws/src/controller_py' with build type 'ament_python'
+[0.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_py', 'ament_prefix_path')
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/ament_prefix_path.ps1'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/ament_prefix_path.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.926s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ghani/my_ws/src/controller_py'
+[0.927s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.928s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ghani/my_ws/src/controller_py': PYTHONPATH=/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller_py build --build-base /home/ghani/my_ws/build/controller_py/build install --prefix /home/ghani/my_ws/install/controller_py --record /home/ghani/my_ws/build/controller_py/install.log --single-version-externally-managed
+[2.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ghani/my_ws/src/controller_py' returned '0': PYTHONPATH=/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/controller_py build --build-base /home/ghani/my_ws/build/controller_py/build install --prefix /home/ghani/my_ws/install/controller_py --record /home/ghani/my_ws/build/controller_py/install.log --single-version-externally-managed
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py' for CMake module files
+[2.186s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py' for CMake config files
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py/lib'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py/bin'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py/lib/pkgconfig/controller_py.pc'
+[2.188s] Level 1:colcon.colcon_core.environment:checking '/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages'
+[2.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_py', 'pythonpath')
+[2.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/pythonpath.ps1'
+[2.190s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/pythonpath.dsv'
+[2.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ghani/my_ws/install/controller_py/share/controller_py/hook/pythonpath.sh'
+[2.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_py)
+[2.194s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghani/my_ws/install/controller_py/share/controller_py/package.ps1'
+[2.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ghani/my_ws/install/controller_py/share/controller_py/package.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghani/my_ws/install/controller_py/share/controller_py/package.sh'
+[2.201s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghani/my_ws/install/controller_py/share/controller_py/package.bash'
+[2.203s] INFO:colcon.colcon_core.shell:Creating package script '/home/ghani/my_ws/install/controller_py/share/controller_py/package.zsh'
+[2.206s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ghani/my_ws/install/controller_py/share/colcon-core/packages/controller_py)
+[2.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.208s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.209s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.219s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.219s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.256s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.257s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghani/my_ws/install/local_setup.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ghani/my_ws/install/_local_setup_util_ps1.py'
+[2.262s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghani/my_ws/install/setup.ps1'
+[2.265s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghani/my_ws/install/local_setup.sh'
+[2.267s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ghani/my_ws/install/_local_setup_util_sh.py'
+[2.268s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghani/my_ws/install/setup.sh'
+[2.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghani/my_ws/install/local_setup.bash'
+[2.274s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghani/my_ws/install/setup.bash'
+[2.277s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ghani/my_ws/install/local_setup.zsh'
+[2.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ghani/my_ws/install/setup.zsh'

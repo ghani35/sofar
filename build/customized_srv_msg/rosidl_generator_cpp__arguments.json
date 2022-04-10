@@ -1,0 +1,48 @@
+{
+  "package_name": "customized_srv_msg",
+  "output_dir": "/home/ghani/my_ws/build/customized_srv_msg/rosidl_generator_cpp/customized_srv_msg",
+  "template_dir": "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource",
+  "idl_tuples": [
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:msg/Num.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:srv/AddThreeInts.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:action/Fibonacci.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg:action/Control.idl"
+  ],
+  "ros_interface_dependencies": [
+    "action_msgs:/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
+    "action_msgs:/opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl",
+    "action_msgs:/opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl",
+    "action_msgs:/opt/ros/galactic/share/action_msgs/srv/CancelGoal.idl",
+    "builtin_interfaces:/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/opt/ros/galactic/share/builtin_interfaces/msg/Time.idl",
+    "unique_identifier_msgs:/opt/ros/galactic/share/unique_identifier_msgs/msg/UUID.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../../../lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/action__builder.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/action__struct.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/action__traits.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/idl.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/idl__builder.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/idl__struct.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/idl__traits.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/msg__builder.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/msg__struct.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/msg__traits.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__builder.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__struct.hpp.em",
+    "/opt/ros/galactic/share/rosidl_generator_cpp/cmake/../resource/srv__traits.hpp.em",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg/msg/Num.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg/srv/AddThreeInts.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg/action/Fibonacci.idl",
+    "/home/ghani/my_ws/build/customized_srv_msg/rosidl_adapter/customized_srv_msg/action/Control.idl",
+    "/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
+    "/opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl",
+    "/opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl",
+    "/opt/ros/galactic/share/action_msgs/srv/CancelGoal.idl",
+    "/opt/ros/galactic/share/builtin_interfaces/msg/Duration.idl",
+    "/opt/ros/galactic/share/builtin_interfaces/msg/Time.idl",
+    "/opt/ros/galactic/share/unique_identifier_msgs/msg/UUID.idl"
+  ]
+}

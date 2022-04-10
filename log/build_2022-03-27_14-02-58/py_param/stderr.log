@@ -1,0 +1,5 @@
+  File "/home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param/parameter.py", line 17
+    self.get_logger().info('first param %s!   second param %s' % my_param, %my_param2)
+                                                                           ^
+SyntaxError: invalid syntax
+

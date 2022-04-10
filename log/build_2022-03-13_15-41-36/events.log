@@ -1,0 +1,75 @@
+[0.000000] (-) TimerEvent: {}
+[0.001594] (-) JobUnselected: {'identifier': 'cpp_package'}
+[0.001659] (-) JobUnselected: {'identifier': 'newcpppackage'}
+[0.001708] (-) JobUnselected: {'identifier': 'py_package'}
+[0.001730] (final_package) JobQueued: {'identifier': 'final_package', 'dependencies': OrderedDict()}
+[0.001780] (final_package) JobStarted: {'identifier': 'final_package'}
+[0.014039] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'cmake'}
+[0.015857] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'build'}
+[0.016276] (final_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/final_package', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/final_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2626'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:61456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1792,unix/ghani-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'deb34e93554846a3aa1974562b45768b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71f20ecc-0e7a-43a2-902a-a1c43498862c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/final_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.066355] (final_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controllercpp\x1b[0m\n'}
+[0.090565] (final_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.100344] (-) TimerEvent: {}
+[0.201806] (-) TimerEvent: {}
+[0.302682] (-) TimerEvent: {}
+[0.404134] (-) TimerEvent: {}
+[0.504783] (-) TimerEvent: {}
+[0.605996] (-) TimerEvent: {}
+[0.706497] (-) TimerEvent: {}
+[0.807215] (-) TimerEvent: {}
+[0.908268] (-) TimerEvent: {}
+[1.009676] (-) TimerEvent: {}
+[1.110564] (-) TimerEvent: {}
+[1.211397] (-) TimerEvent: {}
+[1.312743] (-) TimerEvent: {}
+[1.414121] (-) TimerEvent: {}
+[1.515661] (-) TimerEvent: {}
+[1.616220] (-) TimerEvent: {}
+[1.717660] (-) TimerEvent: {}
+[1.764991] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid setVelocity()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.765345] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:68:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktoo few arguments to function \xe2\x80\x98\x1b[01m\x1b[Kvoid exit(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.765427] (final_package) StderrLine: {'line': b'   68 |      exit(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.765477] (final_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.765523] (final_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/cstdlib:75\x1b[m\x1b[K,\n'}
+[1.765570] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/ext/string_conversions.h:41\x1b[m\x1b[K,\n'}
+[1.765618] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/basic_string.h:6493\x1b[m\x1b[K,\n'}
+[1.765664] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/string:55\x1b[m\x1b[K,\n'}
+[1.765710] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/stdexcept:39\x1b[m\x1b[K,\n'}
+[1.765757] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/array:39\x1b[m\x1b[K,\n'}
+[1.765804] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/tuple:39\x1b[m\x1b[K,\n'}
+[1.765849] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/bits/unique_ptr.h:37\x1b[m\x1b[K,\n'}
+[1.765895] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/9/memory:80\x1b[m\x1b[K,\n'}
+[1.765941] (final_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:1\x1b[m\x1b[K:\n'}
+[1.765987] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/stdlib.h:617:13:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[1.766097] (final_package) StderrLine: {'line': b'  617 | extern void \x1b[01;36m\x1b[Kexit\x1b[m\x1b[K (int __status) __THROW __attribute__ ((__noreturn__));\n'}
+[1.766152] (final_package) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.818881] (-) TimerEvent: {}
+[1.919582] (-) TimerEvent: {}
+[2.021200] (-) TimerEvent: {}
+[2.121954] (-) TimerEvent: {}
+[2.222815] (-) TimerEvent: {}
+[2.323782] (-) TimerEvent: {}
+[2.424562] (-) TimerEvent: {}
+[2.525789] (-) TimerEvent: {}
+[2.626434] (-) TimerEvent: {}
+[2.727229] (-) TimerEvent: {}
+[2.828477] (-) TimerEvent: {}
+[2.929546] (-) TimerEvent: {}
+[3.030225] (-) TimerEvent: {}
+[3.131065] (-) TimerEvent: {}
+[3.231898] (-) TimerEvent: {}
+[3.332663] (-) TimerEvent: {}
+[3.434370] (-) TimerEvent: {}
+[3.535273] (-) TimerEvent: {}
+[3.636969] (-) TimerEvent: {}
+[3.737771] (-) TimerEvent: {}
+[3.838950] (-) TimerEvent: {}
+[3.940050] (-) TimerEvent: {}
+[4.041109] (-) TimerEvent: {}
+[4.142018] (-) TimerEvent: {}
+[4.142789] (final_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1\n'}
+[4.143533] (final_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2\n'}
+[4.143949] (final_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.147884] (final_package) CommandEnded: {'returncode': 2}
+[4.194335] (final_package) JobEnded: {'identifier': 'final_package', 'rc': 2}
+[4.205600] (-) EventReactorShutdown: {}

@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/py_param/py_param.egg-info
+writing ../../build/py_param/py_param.egg-info/PKG-INFO
+writing dependency_links to ../../build/py_param/py_param.egg-info/dependency_links.txt
+writing entry points to ../../build/py_param/py_param.egg-info/entry_points.txt
+writing requirements to ../../build/py_param/py_param.egg-info/requires.txt
+writing top-level names to ../../build/py_param/py_param.egg-info/top_level.txt
+writing manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+reading manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+writing manifest file '../../build/py_param/py_param.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ghani/my_ws/build/py_param/build
+creating /home/ghani/my_ws/build/py_param/build/lib
+creating /home/ghani/my_ws/build/py_param/build/lib/py_param
+copying py_param/publisher.py -> /home/ghani/my_ws/build/py_param/build/lib/py_param
+copying py_param/__init__.py -> /home/ghani/my_ws/build/py_param/build/lib/py_param
+running install
+running install_lib
+creating /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param
+copying /home/ghani/my_ws/build/py_param/build/lib/py_param/publisher.py -> /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param
+copying /home/ghani/my_ws/build/py_param/build/lib/py_param/__init__.py -> /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param
+byte-compiling /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param/publisher.py to publisher.cpython-38.pyc
+byte-compiling /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ghani/my_ws/install/py_param/share/ament_index
+creating /home/ghani/my_ws/install/py_param/share/ament_index/resource_index
+creating /home/ghani/my_ws/install/py_param/share/ament_index/resource_index/packages
+copying resource/py_param -> /home/ghani/my_ws/install/py_param/share/ament_index/resource_index/packages
+copying package.xml -> /home/ghani/my_ws/install/py_param/share/py_param
+running install_egg_info
+Copying ../../build/py_param/py_param.egg-info to /home/ghani/my_ws/install/py_param/lib/python3.8/site-packages/py_param-0.0.0-py3.8.egg-info
+running install_scripts
+Installing talker script to /home/ghani/my_ws/install/py_param/lib/py_param
+writing list of installed files to '/home/ghani/my_ws/build/py_param/install.log'

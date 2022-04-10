@@ -1,0 +1,64 @@
+[0.019s] Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/newcpppackage -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/newcpppackage
+[0.220s] -- The C compiler identification is GNU 9.3.0
+[0.283s] -- The CXX compiler identification is GNU 9.3.0
+[0.290s] -- Check for working C compiler: /usr/bin/cc
+[0.363s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.366s] -- Detecting C compiler ABI info
+[0.439s] -- Detecting C compiler ABI info - done
+[0.451s] -- Detecting C compile features
+[0.453s] -- Detecting C compile features - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++
+[0.537s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.538s] -- Detecting CXX compiler ABI info
+[0.619s] -- Detecting CXX compiler ABI info - done
+[0.629s] -- Detecting CXX compile features
+[0.629s] -- Detecting CXX compile features - done
+[0.633s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.653s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.653s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.722s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.771s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.876s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.904s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.033s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.035s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.053s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.055s] -- Looking for pthread.h
+[1.126s] -- Looking for pthread.h - found
+[1.127s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.203s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.203s] -- Looking for pthread_create in pthreads
+[1.269s] -- Looking for pthread_create in pthreads - not found
+[1.270s] -- Looking for pthread_create in pthread
+[1.342s] -- Looking for pthread_create in pthread - found
+[1.342s] -- Found Threads: TRUE  
+[1.480s] -- Found turtlesim: 1.3.3 (/opt/ros/galactic/share/turtlesim/cmake)
+[1.579s] -- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.644s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.645s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.645s] -- Configured cppcheck include dirs: 
+[1.645s] -- Configured cppcheck exclude dirs and/or files: 
+[1.645s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.645s] -- Configured cpplint exclude dirs and/or files: 
+[1.646s] -- Added test 'lint_cmake' to check CMake code style
+[1.647s] -- Added test 'uncrustify' to check C / C++ code style
+[1.647s] -- Configured uncrustify additional arguments: 
+[1.648s] -- Added test 'xmllint' to check XML markup files
+[1.650s] -- Configuring done
+[1.651s] CMake Error at CMakeLists.txt:18 (add_executable):
+[1.651s]   Cannot find source file:
+[1.651s] 
+[1.651s]     src/subscriber.cpp
+[1.652s] 
+[1.652s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[1.652s]   .hpp .hxx .in .txx
+[1.652s] 
+[1.652s] 
+[1.652s] CMake Error at CMakeLists.txt:18 (add_executable):
+[1.652s]   No SOURCES given to target: listnercpp
+[1.652s] 
+[1.653s] 
+[1.653s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[1.663s] Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '1': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/ghani/my_ws/src/newcpppackage -DCMAKE_INSTALL_PREFIX=/home/ghani/my_ws/install/newcpppackage

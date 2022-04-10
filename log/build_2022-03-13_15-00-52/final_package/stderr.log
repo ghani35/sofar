@@ -1,0 +1,10 @@
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In function ‘[01m[Kdouble getDistanceToWaypoint()[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:25:43:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’
+   25 |   return sqrt(pow(waypointGoal.x - current[01;31m[K->[m[Kx, 2) + pow(
+      |                                           [01;31m[K^~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:26:29:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kturtlesim::msg::Pose_<std::allocator<void> >[m[K’
+   26 |     waypointGoal.y - current[01;31m[K->[m[Ky, 2));
+      |                             [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

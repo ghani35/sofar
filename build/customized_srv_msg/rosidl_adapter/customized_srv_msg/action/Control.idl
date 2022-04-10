@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from customized_srv_msg/action/Control.action
+// generated code does not contain a copyright notice
+
+
+module customized_srv_msg {
+  module action {
+    typedef float float__2[2];
+    struct Control_Goal {
+      float__2 x;
+    };
+    struct Control_Result {
+      boolean status;
+    };
+    struct Control_Feedback {
+      sequence<float> goal_distance;
+    };
+  };
+};

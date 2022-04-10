@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000310] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000357] (-) JobUnselected: {'identifier': 'customized_srv_msg'}
+[0.001150] (-) JobUnselected: {'identifier': 'py_package'}
+[0.001217] (-) JobUnselected: {'identifier': 'py_param'}
+[0.001235] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.001248] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.001264] (final_package) JobQueued: {'identifier': 'final_package', 'dependencies': OrderedDict()}
+[0.001281] (final_package) JobStarted: {'identifier': 'final_package'}
+[0.014179] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'cmake'}
+[0.014812] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'build'}
+[0.016165] (final_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/final_package', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/final_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d4c808eb-8627-4de0-bd11-21dae908a945'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/final_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.064608] (final_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controllercpp\x1b[0m\n'}
+[0.090173] (final_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.099796] (-) TimerEvent: {}
+[0.201348] (-) TimerEvent: {}
+[0.301972] (-) TimerEvent: {}
+[0.403418] (-) TimerEvent: {}
+[0.503964] (-) TimerEvent: {}
+[0.605238] (-) TimerEvent: {}
+[0.706180] (-) TimerEvent: {}
+[0.806835] (-) TimerEvent: {}
+[0.907858] (-) TimerEvent: {}
+[1.009222] (-) TimerEvent: {}
+[1.110494] (-) TimerEvent: {}
+[1.211882] (-) TimerEvent: {}
+[1.313523] (-) TimerEvent: {}
+[1.414465] (-) TimerEvent: {}
+[1.515522] (-) TimerEvent: {}
+[1.616454] (-) TimerEvent: {}
+[1.717083] (-) TimerEvent: {}
+[1.736094] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:35:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in initialization\n'}
+[1.736312] (final_package) StderrLine: {'line': b'   35 | float waypointGoal = turtlesim::msg::\x1b[01;31m\x1b[KPose()\x1b[m\x1b[K;\n'}
+[1.736368] (final_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.736417] (final_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.736464] (final_package) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[Kturtlesim::msg::Pose {aka turtlesim::msg::Pose_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[1.736515] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:36:33:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kturtlesim::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in initialization\n'}
+[1.736565] (final_package) StderrLine: {'line': b'   36 | float current = turtlesim::msg::\x1b[01;31m\x1b[KPose()\x1b[m\x1b[K;\n'}
+[1.736612] (final_package) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.736659] (final_package) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.736705] (final_package) StderrLine: {'line': b'      |                                 \x1b[01;31m\x1b[Kturtlesim::msg::Pose {aka turtlesim::msg::Pose_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[1.736762] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:37:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Twist_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99 in initialization\n'}
+[1.736858] (final_package) StderrLine: {'line': b'   37 | float velCommand = geometry_msgs::msg::\x1b[01;31m\x1b[KTwist()\x1b[m\x1b[K;\n'}
+[1.736915] (final_package) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.736963] (final_package) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[1.737009] (final_package) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[Kgeometry_msgs::msg::Twist {aka geometry_msgs::msg::Twist_<std::allocator<void> >}\x1b[m\x1b[K\n'}
+[1.818408] (-) TimerEvent: {}
+[1.919253] (-) TimerEvent: {}
+[1.940807] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble MinimalSubscriber::getDistanceToWaypoint()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.940990] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:41:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.941097] (final_package) StderrLine: {'line': b'   41 |   return sqrt(pow(waypointGoal.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K - current.x, 2) + pow(\n'}
+[1.941382] (final_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.941441] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:41:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.941493] (final_package) StderrLine: {'line': b'   41 |   return sqrt(pow(waypointGoal.x - current.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K, 2) + pow(\n'}
+[1.941544] (final_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.941591] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:42:18:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.941640] (final_package) StderrLine: {'line': b'   42 |     waypointGoal.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K - current.y, 2));\n'}
+[1.941687] (final_package) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.941733] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:42:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.941791] (final_package) StderrLine: {'line': b'   42 |     waypointGoal.y - current.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K, 2));\n'}
+[1.941855] (final_package) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.941902] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble MinimalSubscriber::getHeadingError()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.941953] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:47:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942006] (final_package) StderrLine: {'line': b'   47 |   double deltaX = waypointGoal.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K - current.x;\n'}
+[1.942104] (final_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.942159] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:47:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942209] (final_package) StderrLine: {'line': b'   47 |   double deltaX = waypointGoal.x - current.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K;\n'}
+[1.942255] (final_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.942301] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:48:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942351] (final_package) StderrLine: {'line': b'   48 |   double deltaY = waypointGoal.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K - current.y;\n'}
+[1.942397] (final_package) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.942443] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:48:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942496] (final_package) StderrLine: {'line': b'   48 |   double deltaY = waypointGoal.y - current.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K;\n'}
+[1.942546] (final_package) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.942591] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:50:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942639] (final_package) StderrLine: {'line': b'   50 |   double headingError = waypointHeading - current.\x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K;\n'}
+[1.942686] (final_package) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.942732] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::setVelocity()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.942792] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:69:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klinear\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942841] (final_package) StderrLine: {'line': b'   69 |         velCommand.\x1b[01;31m\x1b[Klinear\x1b[m\x1b[K.x = 0.0;\n'}
+[1.942887] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.942934] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:70:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kangular\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.942985] (final_package) StderrLine: {'line': b'   70 |         velCommand.\x1b[01;31m\x1b[Kangular\x1b[m\x1b[K.z = K_a  * headingError;\n'}
+[1.943058] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.943125] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:74:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klinear\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.943176] (final_package) StderrLine: {'line': b'   74 |         velCommand.\x1b[01;31m\x1b[Klinear\x1b[m\x1b[K.x = K_l * distanceToWaypoint;\n'}
+[1.943223] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.943270] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:75:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kangular\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.943490] (final_package) StderrLine: {'line': b'   75 |         velCommand.\x1b[01;31m\x1b[Kangular\x1b[m\x1b[K.z = 0.0;\n'}
+[1.943578] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.943628] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:80:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klinear\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.943678] (final_package) StderrLine: {'line': b'   80 |      velCommand.\x1b[01;31m\x1b[Klinear\x1b[m\x1b[K.x = 0.0;\n'}
+[1.943735] (final_package) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.943782] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:81:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kangular\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.943849] (final_package) StderrLine: {'line': b'   81 |      velCommand.\x1b[01;31m\x1b[Kangular\x1b[m\x1b[K.z = 0.0;\n'}
+[1.943896] (final_package) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.943942] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.943991] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:90:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.944039] (final_package) StderrLine: {'line': b'   90 |       current.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K=current2->x;\n'}
+[1.944130] (final_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.944361] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:91:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.944435] (final_package) StderrLine: {'line': b'   91 |       current.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K=current2->y;\n'}
+[1.944485] (final_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.944532] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:92:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ktheta\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.944590] (final_package) StderrLine: {'line': b'   92 |       current.\x1b[01;31m\x1b[Ktheta\x1b[m\x1b[K=current2->theta;\n'}
+[1.944637] (final_package) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[1.944683] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:93:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.944732] (final_package) StderrLine: {'line': b'   93 |       waypointGoal.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K=x_goal;\n'}
+[1.944778] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.944824] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:94:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.944872] (final_package) StderrLine: {'line': b'   94 |       waypointGoal.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K=y_goal;\n'}
+[1.944919] (final_package) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.944965] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:96:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst MinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.945026] (final_package) StderrLine: {'line': b'   96 |       setVelocity(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[1.945072] (final_package) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.945159] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:62:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::setVelocity()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.945215] (final_package) StderrLine: {'line': b'   62 | void \x1b[01;36m\x1b[KsetVelocity\x1b[m\x1b[K() {\n'}
+[1.945262] (final_package) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.952161] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:101:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.952357] (final_package) StderrLine: {'line': b'  101 |          cout << "Current (x,y) = " << "(" << current.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K << "," << current.y << ")"\n'}
+[1.952414] (final_package) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.952464] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:101:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::current\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.952514] (final_package) StderrLine: {'line': b'  101 |       cout << "Current (x,y) = " << "(" << current.x << "," << current.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K << ")"\n'}
+[1.952562] (final_package) StderrLine: {'line': b'      |                                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.952608] (final_package) StderrLine: {'line': b'\n'}
+[1.952654] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:103:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.952718] (final_package) StderrLine: {'line': b'  103 |          << "Waypoint (x,y) = " << "(" << waypointGoal.\x1b[01;31m\x1b[Kx\x1b[m\x1b[K << ","\n'}
+[1.952766] (final_package) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.952812] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:104:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::waypointGoal\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.952860] (final_package) StderrLine: {'line': b'  104 |          << waypointGoal.\x1b[01;31m\x1b[Ky\x1b[m\x1b[K << ")"\n'}
+[1.952907] (final_package) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.952953] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:106:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst MinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[1.953007] (final_package) StderrLine: {'line': b'  106 |          << "Distance to Waypoint = " << getDistanceToWaypoint(\x1b[01;31m\x1b[K)\x1b[m\x1b[K << " m"\n'}
+[1.953054] (final_package) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.953100] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kdouble MinimalSubscriber::getDistanceToWaypoint()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.953189] (final_package) StderrLine: {'line': b'   40 | double \x1b[01;36m\x1b[KgetDistanceToWaypoint\x1b[m\x1b[K() {\n'}
+[1.953240] (final_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.953287] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:108:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Klinear\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const MinimalSubscriber*)this)->MinimalSubscriber::velCommand\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kconst float\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.953336] (final_package) StderrLine: {'line': b'  108 |          << "Linear Velocity (x) = " << velCommand.\x1b[01;31m\x1b[Klinear\x1b[m\x1b[K.x << " m/s"\n'}
+[1.953383] (final_package) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.954720] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.954876] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:119:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.954932] (final_package) StderrLine: {'line': b'  119 |   cin >> \x1b[01;31m\x1b[Kx_goal\x1b[m\x1b[K;\n'}
+[1.954981] (final_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.956784] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:121:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.956904] (final_package) StderrLine: {'line': b'  121 |   cin >> \x1b[01;31m\x1b[Ky_goal\x1b[m\x1b[K;\n'}
+[1.956958] (final_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.019542] (-) TimerEvent: {}
+[2.120842] (-) TimerEvent: {}
+[2.221698] (-) TimerEvent: {}
+[2.322617] (-) TimerEvent: {}
+[2.423178] (-) TimerEvent: {}
+[2.524646] (-) TimerEvent: {}
+[2.625499] (-) TimerEvent: {}
+[2.726755] (-) TimerEvent: {}
+[2.827507] (-) TimerEvent: {}
+[2.928972] (-) TimerEvent: {}
+[3.029796] (-) TimerEvent: {}
+[3.130508] (-) TimerEvent: {}
+[3.231617] (-) TimerEvent: {}
+[3.332436] (-) TimerEvent: {}
+[3.433024] (-) TimerEvent: {}
+[3.533687] (-) TimerEvent: {}
+[3.634513] (-) TimerEvent: {}
+[3.735706] (-) TimerEvent: {}
+[3.836466] (-) TimerEvent: {}
+[3.937463] (-) TimerEvent: {}
+[4.038139] (-) TimerEvent: {}
+[4.045994] (final_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1\n'}
+[4.046633] (final_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2\n'}
+[4.046726] (final_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.048416] (final_package) CommandEnded: {'returncode': 2}
+[4.096403] (final_package) JobEnded: {'identifier': 'final_package', 'rc': 2}
+[4.107677] (-) EventReactorShutdown: {}

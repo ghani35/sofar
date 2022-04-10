@@ -1,0 +1,117 @@
+[0.000000] (-) TimerEvent: {}
+[0.001264] (-) JobUnselected: {'identifier': 'cpp_package'}
+[0.001319] (-) JobUnselected: {'identifier': 'newcpppackage'}
+[0.001780] (-) JobUnselected: {'identifier': 'py_package'}
+[0.001837] (final_package) JobQueued: {'identifier': 'final_package', 'dependencies': OrderedDict()}
+[0.001887] (final_package) JobStarted: {'identifier': 'final_package'}
+[0.014681] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'cmake'}
+[0.016804] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'build'}
+[0.016895] (final_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/final_package', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/final_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2626'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:61456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1792,unix/ghani-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'deb34e93554846a3aa1974562b45768b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71f20ecc-0e7a-43a2-902a-a1c43498862c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/final_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.063345] (final_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controllercpp\x1b[0m\n'}
+[0.087644] (final_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.099405] (-) TimerEvent: {}
+[0.200397] (-) TimerEvent: {}
+[0.301143] (-) TimerEvent: {}
+[0.402713] (-) TimerEvent: {}
+[0.503964] (-) TimerEvent: {}
+[0.605103] (-) TimerEvent: {}
+[0.706491] (-) TimerEvent: {}
+[0.807907] (-) TimerEvent: {}
+[0.908558] (-) TimerEvent: {}
+[1.009552] (-) TimerEvent: {}
+[1.110947] (-) TimerEvent: {}
+[1.211906] (-) TimerEvent: {}
+[1.312504] (-) TimerEvent: {}
+[1.413567] (-) TimerEvent: {}
+[1.514178] (-) TimerEvent: {}
+[1.615142] (-) TimerEvent: {}
+[1.716391] (-) TimerEvent: {}
+[1.817338] (-) TimerEvent: {}
+[1.918715] (-) TimerEvent: {}
+[1.957744] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.958716] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:63:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcurrent\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[1.958793] (final_package) StderrLine: {'line': b'   40 |     void topic_callback(\x1b[01;35m\x1b[Kconst turtlesim::msg::Pose::SharedPtr current\x1b[m\x1b[K) const\n'}
+[1.958847] (final_package) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[2.019488] (-) TimerEvent: {}
+[2.120186] (-) TimerEvent: {}
+[2.220809] (-) TimerEvent: {}
+[2.321604] (-) TimerEvent: {}
+[2.422335] (-) TimerEvent: {}
+[2.523071] (-) TimerEvent: {}
+[2.623940] (-) TimerEvent: {}
+[2.725048] (-) TimerEvent: {}
+[2.826331] (-) TimerEvent: {}
+[2.927430] (-) TimerEvent: {}
+[3.028379] (-) TimerEvent: {}
+[3.128939] (-) TimerEvent: {}
+[3.229598] (-) TimerEvent: {}
+[3.331058] (-) TimerEvent: {}
+[3.432646] (-) TimerEvent: {}
+[3.533500] (-) TimerEvent: {}
+[3.635170] (-) TimerEvent: {}
+[3.735880] (-) TimerEvent: {}
+[3.836867] (-) TimerEvent: {}
+[3.938052] (-) TimerEvent: {}
+[4.039524] (-) TimerEvent: {}
+[4.140847] (-) TimerEvent: {}
+[4.242214] (-) TimerEvent: {}
+[4.343163] (-) TimerEvent: {}
+[4.443830] (-) TimerEvent: {}
+[4.545080] (-) TimerEvent: {}
+[4.646832] (-) TimerEvent: {}
+[4.747621] (-) TimerEvent: {}
+[4.848601] (-) TimerEvent: {}
+[4.949118] (-) TimerEvent: {}
+[5.050211] (-) TimerEvent: {}
+[5.150968] (-) TimerEvent: {}
+[5.251549] (-) TimerEvent: {}
+[5.352113] (-) TimerEvent: {}
+[5.452590] (-) TimerEvent: {}
+[5.553183] (-) TimerEvent: {}
+[5.653741] (-) TimerEvent: {}
+[5.754587] (-) TimerEvent: {}
+[5.855586] (-) TimerEvent: {}
+[5.956151] (-) TimerEvent: {}
+[6.057191] (-) TimerEvent: {}
+[6.157732] (-) TimerEvent: {}
+[6.258442] (-) TimerEvent: {}
+[6.359753] (-) TimerEvent: {}
+[6.461229] (-) TimerEvent: {}
+[6.562241] (-) TimerEvent: {}
+[6.663365] (-) TimerEvent: {}
+[6.764861] (-) TimerEvent: {}
+[6.865348] (-) TimerEvent: {}
+[6.966434] (-) TimerEvent: {}
+[7.067992] (-) TimerEvent: {}
+[7.168804] (-) TimerEvent: {}
+[7.248145] (final_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controllercpp\x1b[0m\n'}
+[7.269248] (-) TimerEvent: {}
+[7.370415] (-) TimerEvent: {}
+[7.471090] (-) TimerEvent: {}
+[7.571944] (-) TimerEvent: {}
+[7.577567] (final_package) StdoutLine: {'line': b'[100%] Built target controllercpp\n'}
+[7.589223] (final_package) CommandEnded: {'returncode': 0}
+[7.626649] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'install'}
+[7.640067] (final_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ghani/my_ws/build/final_package'], 'cwd': '/home/ghani/my_ws/build/final_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1583'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2626'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:61456'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1792,unix/ghani-virtual-machine:/tmp/.ICE-unix/1792'), ('INVOCATION_ID', 'deb34e93554846a3aa1974562b45768b'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:71f20ecc-0e7a-43a2-902a-a1c43498862c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/final_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[7.648405] (final_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.649194] (final_package) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/final_package/lib/final_package/controllercpp\n'}
+[7.651280] (final_package) StdoutLine: {'line': b'-- Set runtime path of "/home/ghani/my_ws/install/final_package/lib/final_package/controllercpp" to ""\n'}
+[7.651370] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/package_run_dependencies/final_package\n'}
+[7.651496] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/parent_prefix_path/final_package\n'}
+[7.651653] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.sh\n'}
+[7.651832] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/ament_prefix_path.dsv\n'}
+[7.652086] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.sh\n'}
+[7.652457] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/environment/path.dsv\n'}
+[7.652578] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.bash\n'}
+[7.652632] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.sh\n'}
+[7.652681] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.zsh\n'}
+[7.652729] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/local_setup.dsv\n'}
+[7.652776] (final_package) StdoutLine: {'line': b'-- Installing: /home/ghani/my_ws/install/final_package/share/final_package/package.dsv\n'}
+[7.652866] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/ament_index/resource_index/packages/final_package\n'}
+[7.652954] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig.cmake\n'}
+[7.653027] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/cmake/final_packageConfig-version.cmake\n'}
+[7.653077] (final_package) StdoutLine: {'line': b'-- Up-to-date: /home/ghani/my_ws/install/final_package/share/final_package/package.xml\n'}
+[7.655835] (final_package) CommandEnded: {'returncode': 0}
+[7.672643] (-) TimerEvent: {}
+[7.713874] (final_package) JobEnded: {'identifier': 'final_package', 'rc': 0}
+[7.715088] (-) EventReactorShutdown: {}

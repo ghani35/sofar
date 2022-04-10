@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/ghani/my_ws/build/final_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6
+[0.065s] [35m[1mScanning dependencies of target controllercpp[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[2.077s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.077s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:46:28:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+[2.077s]    46 |       current.y=current2->y[01;31m[K:[m[K
+[2.077s]       |                            [01;31m[K^[m[K
+[2.077s]       |                            [32m[K::[m[K
+[2.078s] [01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ is not a class, namespace, or enumeration
+[2.078s]    46 |       current.y=current2->[01;31m[Ky[m[K:
+[2.078s]       |                           [01;31m[K^[m[K
+[4.263s] make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+[4.264s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+[4.265s] make: *** [Makefile:141: all] Error 2
+[4.266s] Invoked command in '/home/ghani/my_ws/build/final_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/final_package -- -j6 -l6

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/controller_py/controller_py.egg-info/PKG-INFO
+writing dependency_links to ../../build/controller_py/controller_py.egg-info/dependency_links.txt
+writing entry points to ../../build/controller_py/controller_py.egg-info/entry_points.txt
+writing requirements to ../../build/controller_py/controller_py.egg-info/requires.txt
+writing top-level names to ../../build/controller_py/controller_py.egg-info/top_level.txt
+reading manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'
+writing manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'
+running build
+running build_py
+copying controller_py/action_controller.py -> /home/ghani/my_ws/build/controller_py/build/lib/controller_py
+copying controller_py/client.py -> /home/ghani/my_ws/build/controller_py/build/lib/controller_py
+running install
+running install_lib
+copying /home/ghani/my_ws/build/controller_py/build/lib/controller_py/action_controller.py -> /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py
+copying /home/ghani/my_ws/build/controller_py/build/lib/controller_py/client.py -> /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py
+byte-compiling /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py/action_controller.py to action_controller.cpython-38.pyc
+Sorry: TabError: inconsistent use of tabs and spaces in indentation (client.py, line 13)
+byte-compiling /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py/client.py to client.cpython-38.pyc
+running install_data
+running install_egg_info
+removing '/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/controller_py/controller_py.egg-info to /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info
+running install_scripts
+Installing py_action_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py
+Installing py_client script to /home/ghani/my_ws/install/controller_py/lib/controller_py
+Installing py_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py
+writing list of installed files to '/home/ghani/my_ws/build/controller_py/install.log'

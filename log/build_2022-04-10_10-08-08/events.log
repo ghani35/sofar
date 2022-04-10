@@ -1,0 +1,47 @@
+[0.000000] (-) TimerEvent: {}
+[0.000253] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000321] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000343] (-) JobUnselected: {'identifier': 'customized_srv_msg'}
+[0.000356] (-) JobUnselected: {'identifier': 'final_package'}
+[0.000368] (-) JobUnselected: {'identifier': 'py_package'}
+[0.000380] (-) JobUnselected: {'identifier': 'py_param'}
+[0.000391] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000401] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.000416] (controller_py) JobQueued: {'identifier': 'controller_py', 'dependencies': OrderedDict()}
+[0.000433] (controller_py) JobStarted: {'identifier': 'controller_py'}
+[0.097957] (-) TimerEvent: {}
+[0.198997] (-) TimerEvent: {}
+[0.299733] (-) TimerEvent: {}
+[0.400611] (-) TimerEvent: {}
+[0.502004] (-) TimerEvent: {}
+[0.582211] (controller_py) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/controller_py', 'build', '--build-base', '/home/ghani/my_ws/build/controller_py/build', 'install', '--prefix', '/home/ghani/my_ws/install/controller_py', '--record', '/home/ghani/my_ws/build/controller_py/install.log', '--single-version-externally-managed'], 'cwd': '/home/ghani/my_ws/src/controller_py', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ghani', 'LC_TIME': 'it_IT.UTF-8', 'SSH_AGENT_PID': '1828', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib', 'HOME': '/home/ghani', 'OLDPWD': '/home/ghani', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'it_IT.UTF-8', 'MANAGERPID': '1654', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14965', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'galactic', 'LOGNAME': 'ghani', 'JOURNAL_STREAM': '8:63618', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ghani', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863', 'INVOCATION_ID': 'f9ae920745b249ca9fdd044bab6d0bfa', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'it_IT.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'it_IT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/galactic', 'SHELL': '/bin/bash', 'LC_NAME': 'it_IT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:074b3426-6143-4c83-83cb-61df7b0e60ed', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'it_IT.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'it_IT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ghani/my_ws/build/controller_py', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages', 'LC_NUMERIC': 'it_IT.UTF-8', 'LC_PAPER': 'it_IT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[0.602837] (-) TimerEvent: {}
+[0.703288] (-) TimerEvent: {}
+[0.770195] (controller_py) StdoutLine: {'line': b'running egg_info\n'}
+[0.770757] (controller_py) StdoutLine: {'line': b'writing ../../build/controller_py/controller_py.egg-info/PKG-INFO\n'}
+[0.771344] (controller_py) StdoutLine: {'line': b'writing dependency_links to ../../build/controller_py/controller_py.egg-info/dependency_links.txt\n'}
+[0.772122] (controller_py) StdoutLine: {'line': b'writing entry points to ../../build/controller_py/controller_py.egg-info/entry_points.txt\n'}
+[0.772746] (controller_py) StdoutLine: {'line': b'writing requirements to ../../build/controller_py/controller_py.egg-info/requires.txt\n'}
+[0.773359] (controller_py) StdoutLine: {'line': b'writing top-level names to ../../build/controller_py/controller_py.egg-info/top_level.txt\n'}
+[0.803932] (controller_py) StdoutLine: {'line': b"reading manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'\n"}
+[0.804251] (-) TimerEvent: {}
+[0.804595] (controller_py) StdoutLine: {'line': b"writing manifest file '../../build/controller_py/controller_py.egg-info/SOURCES.txt'\n"}
+[0.804903] (controller_py) StdoutLine: {'line': b'running build\n'}
+[0.804972] (controller_py) StdoutLine: {'line': b'running build_py\n'}
+[0.805316] (controller_py) StdoutLine: {'line': b'copying controller_py/client.py -> /home/ghani/my_ws/build/controller_py/build/lib/controller_py\n'}
+[0.805683] (controller_py) StdoutLine: {'line': b'running install\n'}
+[0.806579] (controller_py) StdoutLine: {'line': b'running install_lib\n'}
+[0.807514] (controller_py) StdoutLine: {'line': b'copying /home/ghani/my_ws/build/controller_py/build/lib/controller_py/client.py -> /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py\n'}
+[0.808056] (controller_py) StdoutLine: {'line': b'byte-compiling /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py/client.py to client.cpython-38.pyc\n'}
+[0.810047] (controller_py) StdoutLine: {'line': b'running install_data\n'}
+[0.810631] (controller_py) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.812025] (controller_py) StdoutLine: {'line': b"removing '/home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.812345] (controller_py) StdoutLine: {'line': b'Copying ../../build/controller_py/controller_py.egg-info to /home/ghani/my_ws/install/controller_py/lib/python3.8/site-packages/controller_py-0.0.0-py3.8.egg-info\n'}
+[0.813069] (controller_py) StdoutLine: {'line': b'running install_scripts\n'}
+[0.828922] (controller_py) StdoutLine: {'line': b'Installing py_action_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py\n'}
+[0.829391] (controller_py) StdoutLine: {'line': b'Installing py_client script to /home/ghani/my_ws/install/controller_py/lib/controller_py\n'}
+[0.829761] (controller_py) StdoutLine: {'line': b'Installing py_controller script to /home/ghani/my_ws/install/controller_py/lib/controller_py\n'}
+[0.830187] (controller_py) StdoutLine: {'line': b"writing list of installed files to '/home/ghani/my_ws/build/controller_py/install.log'\n"}
+[0.857705] (controller_py) CommandEnded: {'returncode': 0}
+[0.870921] (controller_py) JobEnded: {'identifier': 'controller_py', 'rc': 0}
+[0.872707] (-) EventReactorShutdown: {}

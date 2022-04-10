@@ -1,0 +1,23 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.044s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.116s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.149s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.152s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.309s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.311s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.328s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.454s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[0.486s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.486s]   ament_target_dependencies() the passed package name 'turtlesim' was not
+[0.486s]   found before
+[0.486s] Call Stack (most recent call first):
+[0.486s]   CMakeLists.txt:18 (ament_target_dependencies)
+[0.487s] 
+[0.487s] 
+[0.487s] -- Configuring incomplete, errors occurred!
+[0.487s] See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeOutput.log".
+[0.487s] See also "/home/ghani/my_ws/build/cpp_package/CMakeFiles/CMakeError.log".
+[0.492s] make: *** [Makefile:310: cmake_check_build_system] Error 1
+[0.494s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

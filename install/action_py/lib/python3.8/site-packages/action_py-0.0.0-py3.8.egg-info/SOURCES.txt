@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../build/action_py/action_py.egg-info/PKG-INFO
+../../build/action_py/action_py.egg-info/SOURCES.txt
+../../build/action_py/action_py.egg-info/dependency_links.txt
+../../build/action_py/action_py.egg-info/entry_points.txt
+../../build/action_py/action_py.egg-info/requires.txt
+../../build/action_py/action_py.egg-info/top_level.txt
+../../build/action_py/action_py.egg-info/zip-safe
+action_py/__init__.py
+action_py/fibonacci_action_server.py
+action_py/fibonacci_client.py
+resource/action_py
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

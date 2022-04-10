@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.065s] [35m[1mScanning dependencies of target talkercpp[0m
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[3.703s] [100%] [32m[1mLinking CXX executable talkercpp[0m
+[3.875s] [100%] Built target talkercpp
+[3.887s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[3.935s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_package
+[3.943s] -- Install configuration: ""
+[3.943s] -- Installing: /home/ghani/my_ws/install/cpp_package/lib/cpp_package/talkercpp
+[3.944s] -- Set runtime path of "/home/ghani/my_ws/install/cpp_package/lib/cpp_package/talkercpp" to ""
+[3.944s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package
+[3.944s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package
+[3.944s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/path.sh
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/environment/path.dsv
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.bash
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.sh
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.zsh
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/local_setup.dsv
+[3.945s] -- Installing: /home/ghani/my_ws/install/cpp_package/share/cpp_package/package.dsv
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/ament_index/resource_index/packages/cpp_package
+[3.945s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake
+[3.946s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake
+[3.946s] -- Up-to-date: /home/ghani/my_ws/install/cpp_package/share/cpp_package/package.xml
+[3.948s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/ghani/my_ws/build/cpp_package

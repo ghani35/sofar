@@ -1,0 +1,9 @@
+{
+  "package_name": "customized_srv_msg",
+  "non_idl_tuples": [
+    "/home/ghani/my_ws/src/customized_srv_msg:msg/Num.msg",
+    "/home/ghani/my_ws/src/customized_srv_msg:srv/AddThreeInts.srv",
+    "/home/ghani/my_ws/src/customized_srv_msg:action/Fibonacci.action",
+    "/home/ghani/my_ws/src/customized_srv_msg:action/Control.action"
+  ]
+}

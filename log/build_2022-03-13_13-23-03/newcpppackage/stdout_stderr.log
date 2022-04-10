@@ -1,0 +1,45 @@
+[35m[1mScanning dependencies of target listnercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listnercpp.dir/src/sub.cpp.o[0m
+In file included from [01m[K/opt/ros/galactic/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executor.hpp:36[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/galactic/include/rclcpp/rclcpp.hpp:156[m[K,
+                 from [01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:3[m[K:
+[01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:21:40:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Kdouble[m[K’ [[01;35m[K-Wformat=[m[K]
+   21 |        RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%s'"[m[K, [32m[Kmsg->x[m[K);
+      |                                        [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+      |                                                              [32m[K|[m[K
+      |                                                              [32m[Kdouble[m[K
+[01m[K/home/ghani/my_ws/src/newcpppackage/src/sub.cpp:21:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   21 |        RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%s[m[K'", msg->x);
+      |                                                   [01;36m[K~^[m[K
+      |                                                    [01;36m[K|[m[K
+      |                                                    [01;36m[Kchar*[m[K
+      |                                                   [32m[K%f[m[K
+[100%] [32m[1mLinking CXX executable listnercpp[0m
+[100%] Built target listnercpp
+-- Install configuration: ""
+-- Installing: /home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp
+-- Set runtime path of "/home/ghani/my_ws/install/newcpppackage/lib/newcpppackage/listnercpp" to ""
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/package_run_dependencies/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/parent_prefix_path/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/environment/path.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.bash
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.sh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.zsh
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/local_setup.dsv
+-- Installing: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.dsv
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/ament_index/resource_index/packages/newcpppackage
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig.cmake
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/cmake/newcpppackageConfig-version.cmake
+-- Up-to-date: /home/ghani/my_ws/install/newcpppackage/share/newcpppackage/package.xml

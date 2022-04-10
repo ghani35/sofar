@@ -1,0 +1,4 @@
+[console_scripts]
+kill_client = srevices_exercise.kill_client:main
+spawn_client = srevices_exercise.spawn_client:main
+

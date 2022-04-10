@@ -1,0 +1,5 @@
+[console_scripts]
+exersice = py_package.exercise:main
+listner = py_package.subsciber:main
+talker = py_package.publisher_member_function:main
+

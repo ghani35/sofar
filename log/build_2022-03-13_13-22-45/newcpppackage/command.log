@@ -1,0 +1,2 @@
+Invoking command in '/home/ghani/my_ws/build/newcpppackage': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6
+Invoked command in '/home/ghani/my_ws/build/newcpppackage' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/newcpppackage -- -j6 -l6

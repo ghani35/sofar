@@ -1,0 +1,92 @@
+[0.000000] (-) TimerEvent: {}
+[0.000196] (-) JobUnselected: {'identifier': 'action_py'}
+[0.000251] (-) JobUnselected: {'identifier': 'cpp_new'}
+[0.000297] (-) JobUnselected: {'identifier': 'customized_srv_msg'}
+[0.000346] (-) JobUnselected: {'identifier': 'py_package'}
+[0.000364] (-) JobUnselected: {'identifier': 'py_param'}
+[0.000415] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.000433] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.000483] (final_package) JobQueued: {'identifier': 'final_package', 'dependencies': OrderedDict()}
+[0.000505] (final_package) JobStarted: {'identifier': 'final_package'}
+[0.013169] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'cmake'}
+[0.013703] (final_package) JobProgress: {'identifier': 'final_package', 'progress': 'build'}
+[0.014450] (final_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ghani/my_ws/build/final_package', '--', '-j6', '-l6'], 'cwd': '/home/ghani/my_ws/build/final_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ghani'), ('LC_TIME', 'it_IT.UTF-8'), ('SSH_AGENT_PID', '1827'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/home/ghani'), ('OLDPWD', '/home/ghani'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'it_IT.UTF-8'), ('MANAGERPID', '1653'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4371'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'ghani'), ('JOURNAL_STREAM', '8:58237'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ghani'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ghani-virtual-machine:@/tmp/.ICE-unix/1863,unix/ghani-virtual-machine:/tmp/.ICE-unix/1863'), ('INVOCATION_ID', '9c853a19dfb34c08acdd63642b1626da'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'it_IT.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'it_IT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'it_IT.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:d4c808eb-8627-4de0-bd11-21dae908a945'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'it_IT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'it_IT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ghani/my_ws/build/final_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'it_IT.UTF-8'), ('LC_PAPER', 'it_IT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/galactic')]), 'shell': False}
+[0.062587] (final_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target controllercpp\x1b[0m\n'}
+[0.088086] (final_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o\x1b[0m\n'}
+[0.099651] (-) TimerEvent: {}
+[0.200948] (-) TimerEvent: {}
+[0.302493] (-) TimerEvent: {}
+[0.403747] (-) TimerEvent: {}
+[0.504639] (-) TimerEvent: {}
+[0.605325] (-) TimerEvent: {}
+[0.705885] (-) TimerEvent: {}
+[0.806495] (-) TimerEvent: {}
+[0.907569] (-) TimerEvent: {}
+[1.008311] (-) TimerEvent: {}
+[1.108948] (-) TimerEvent: {}
+[1.209974] (-) TimerEvent: {}
+[1.310793] (-) TimerEvent: {}
+[1.412549] (-) TimerEvent: {}
+[1.513594] (-) TimerEvent: {}
+[1.614485] (-) TimerEvent: {}
+[1.715278] (-) TimerEvent: {}
+[1.776180] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:35:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776528] (final_package) StderrLine: {'line': b'   35 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K waypointGoal = turtlesim::msg::Pose();\n'}
+[1.776665] (final_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.776778] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:36:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.776883] (final_package) StderrLine: {'line': b'   36 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K current = turtlesim::msg::Pose();\n'}
+[1.776992] (final_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.777043] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:37:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Knon-static data member declared with placeholder \xe2\x80\x98\x1b[01m\x1b[Kauto\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.777091] (final_package) StderrLine: {'line': b'   37 | \x1b[01;31m\x1b[Kauto\x1b[m\x1b[K velCommand = geometry_msgs::msg::Twist();\n'}
+[1.777137] (final_package) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.815686] (-) TimerEvent: {}
+[1.916437] (-) TimerEvent: {}
+[2.017651] (-) TimerEvent: {}
+[2.041161] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.041475] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:97:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst MinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.041620] (final_package) StderrLine: {'line': b'   97 |       setVelocity(\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.041805] (final_package) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.041918] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:62:6:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::setVelocity()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.042023] (final_package) StderrLine: {'line': b'   62 | void \x1b[01;36m\x1b[KsetVelocity\x1b[m\x1b[K() {\n'}
+[2.042129] (final_package) StderrLine: {'line': b'      |      \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.042232] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:107:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst MinimalSubscriber\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K-fpermissive\x1b[m\x1b[K]\n'}
+[2.042338] (final_package) StderrLine: {'line': b'  107 |          << "Distance to Waypoint = " << getDistanceToWaypoint(\x1b[01;31m\x1b[K)\x1b[m\x1b[K << " m"\n'}
+[2.042450] (final_package) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.042508] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Kdouble MinimalSubscriber::getDistanceToWaypoint()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.042556] (final_package) StderrLine: {'line': b'   40 | double \x1b[01;36m\x1b[KgetDistanceToWaypoint\x1b[m\x1b[K() {\n'}
+[2.042603] (final_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.042979] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.043076] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:120:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kx_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.043136] (final_package) StderrLine: {'line': b'  120 |   cin >> \x1b[01;31m\x1b[Kx_goal\x1b[m\x1b[K;\n'}
+[2.043185] (final_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.045315] (final_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ghani/my_ws/src/final_package/src/controller.cpp:122:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ky_goal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.045471] (final_package) StderrLine: {'line': b'  122 |   cin >> \x1b[01;31m\x1b[Ky_goal\x1b[m\x1b[K;\n'}
+[2.045526] (final_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[2.118652] (-) TimerEvent: {}
+[2.219227] (-) TimerEvent: {}
+[2.319931] (-) TimerEvent: {}
+[2.420825] (-) TimerEvent: {}
+[2.521517] (-) TimerEvent: {}
+[2.622493] (-) TimerEvent: {}
+[2.723700] (-) TimerEvent: {}
+[2.824337] (-) TimerEvent: {}
+[2.924906] (-) TimerEvent: {}
+[3.025845] (-) TimerEvent: {}
+[3.126987] (-) TimerEvent: {}
+[3.227522] (-) TimerEvent: {}
+[3.328234] (-) TimerEvent: {}
+[3.429627] (-) TimerEvent: {}
+[3.530400] (-) TimerEvent: {}
+[3.631131] (-) TimerEvent: {}
+[3.731876] (-) TimerEvent: {}
+[3.833161] (-) TimerEvent: {}
+[3.934241] (-) TimerEvent: {}
+[4.034842] (-) TimerEvent: {}
+[4.135504] (-) TimerEvent: {}
+[4.196836] (final_package) StderrLine: {'line': b'make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1\n'}
+[4.197340] (final_package) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2\n'}
+[4.197567] (final_package) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.201959] (final_package) CommandEnded: {'returncode': 2}
+[4.236107] (-) TimerEvent: {}
+[4.247667] (final_package) JobEnded: {'identifier': 'final_package', 'rc': 2}
+[4.258966] (-) EventReactorShutdown: {}

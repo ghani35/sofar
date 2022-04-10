@@ -1,0 +1,11 @@
+[0.024s] Invoking command in '/home/ghani/my_ws/build/cpp_package': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6
+[0.071s] [35m[1mScanning dependencies of target talkercpp[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o[0m
+[0.861s] [01m[K/home/ghani/my_ws/src/cpp_package/src/publisher_member_function.cpp:22:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/Twist.hpp: No such file or directory
+[0.861s]    22 | #include [01;31m[K"geometry_msgs/msg/Twist.hpp"[m[K
+[0.861s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.861s] compilation terminated.
+[0.867s] make[2]: *** [CMakeFiles/talkercpp.dir/build.make:63: CMakeFiles/talkercpp.dir/src/publisher_member_function.cpp.o] Error 1
+[0.867s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/talkercpp.dir/all] Error 2
+[0.867s] make: *** [Makefile:141: all] Error 2
+[0.870s] Invoked command in '/home/ghani/my_ws/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_package -- -j6 -l6

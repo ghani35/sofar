@@ -1,0 +1,4 @@
+source;share/customized_srv_msg/local_setup.bash
+source;share/customized_srv_msg/local_setup.dsv
+source;share/customized_srv_msg/local_setup.sh
+source;share/customized_srv_msg/local_setup.zsh

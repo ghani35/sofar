@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.045s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.065s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.132s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.227s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.324s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.353s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.427s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.532s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.540s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.582s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.588s] -- Looking for pthread.h
+[0.666s] -- Looking for pthread.h - found
+[0.666s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.745s] -- Looking for pthread_create in pthreads
+[0.809s] -- Looking for pthread_create in pthreads - not found
+[0.809s] -- Looking for pthread_create in pthread
+[0.882s] -- Looking for pthread_create in pthread - found
+[0.883s] -- Found Threads: TRUE  
+[1.092s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[1.092s]   ament_target_dependencies() the first argument must be a valid target name
+[1.092s] Call Stack (most recent call first):
+[1.092s]   CMakeLists.txt:14 (ament_target_dependencies)
+[1.092s] 
+[1.092s] 
+[1.093s] -- Configuring incomplete, errors occurred!
+[1.093s] See also "/home/ghani/my_ws/build/cpp_new/CMakeFiles/CMakeOutput.log".
+[1.093s] See also "/home/ghani/my_ws/build/cpp_new/CMakeFiles/CMakeError.log".
+[1.098s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[1.102s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ghani/my_ws/install/srevices_exercise:/home/ghani/my_ws/install/py_srvcli:/home/ghani/my_ws/install/py_package:/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6

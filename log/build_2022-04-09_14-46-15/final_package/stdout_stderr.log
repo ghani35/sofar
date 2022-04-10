@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target controllercpp[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/controllercpp.dir/src/controller.cpp.o[0m
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:35:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   35 | [01;31m[Kauto[m[K waypointGoal = turtlesim::msg::Pose();
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:36:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   36 | [01;31m[Kauto[m[K current = turtlesim::msg::Pose();
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:37:1:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   37 | [01;31m[Kauto[m[K velCommand = geometry_msgs::msg::Twist();
+      | [01;31m[K^~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:97:19:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+   97 |       setVelocity([01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:62:6:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kvoid MinimalSubscriber::setVelocity()[m[K’
+   62 | void [01;36m[KsetVelocity[m[K() {
+      |      [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:107:64:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst MinimalSubscriber[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K-fpermissive[m[K]
+  107 |          << "Distance to Waypoint = " << getDistanceToWaypoint([01;31m[K)[m[K << " m"
+      |                                                                [01;31m[K^[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:40:8:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Kdouble MinimalSubscriber::getDistanceToWaypoint()[m[K’
+   40 | double [01;36m[KgetDistanceToWaypoint[m[K() {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:120:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kx_goal[m[K’ was not declared in this scope
+  120 |   cin >> [01;31m[Kx_goal[m[K;
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:122:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ky_goal[m[K’ was not declared in this scope
+  122 |   cin >> [01;31m[Ky_goal[m[K;
+      |          [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

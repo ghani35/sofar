@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/srevices_exercise/srevices_exercise.egg-info
+writing ../../build/srevices_exercise/srevices_exercise.egg-info/PKG-INFO
+writing dependency_links to ../../build/srevices_exercise/srevices_exercise.egg-info/dependency_links.txt
+writing entry points to ../../build/srevices_exercise/srevices_exercise.egg-info/entry_points.txt
+writing requirements to ../../build/srevices_exercise/srevices_exercise.egg-info/requires.txt
+writing top-level names to ../../build/srevices_exercise/srevices_exercise.egg-info/top_level.txt
+writing manifest file '../../build/srevices_exercise/srevices_exercise.egg-info/SOURCES.txt'
+reading manifest file '../../build/srevices_exercise/srevices_exercise.egg-info/SOURCES.txt'
+writing manifest file '../../build/srevices_exercise/srevices_exercise.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ghani/my_ws/build/srevices_exercise/build
+creating /home/ghani/my_ws/build/srevices_exercise/build/lib
+creating /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise
+copying srevices_exercise/spawn_client.py -> /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise
+copying srevices_exercise/__init__.py -> /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise
+running install
+running install_lib
+creating /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise
+copying /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise/spawn_client.py -> /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise
+copying /home/ghani/my_ws/build/srevices_exercise/build/lib/srevices_exercise/__init__.py -> /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise
+byte-compiling /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise/spawn_client.py to spawn_client.cpython-38.pyc
+byte-compiling /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ghani/my_ws/install/srevices_exercise/share/ament_index
+creating /home/ghani/my_ws/install/srevices_exercise/share/ament_index/resource_index
+creating /home/ghani/my_ws/install/srevices_exercise/share/ament_index/resource_index/packages
+copying resource/srevices_exercise -> /home/ghani/my_ws/install/srevices_exercise/share/ament_index/resource_index/packages
+copying package.xml -> /home/ghani/my_ws/install/srevices_exercise/share/srevices_exercise
+running install_egg_info
+Copying ../../build/srevices_exercise/srevices_exercise.egg-info to /home/ghani/my_ws/install/srevices_exercise/lib/python3.8/site-packages/srevices_exercise-0.0.0-py3.8.egg-info
+running install_scripts
+Installing kill_client script to /home/ghani/my_ws/install/srevices_exercise/lib/srevices_exercise
+Installing spawn_client script to /home/ghani/my_ws/install/srevices_exercise/lib/srevices_exercise
+writing list of installed files to '/home/ghani/my_ws/build/srevices_exercise/install.log'

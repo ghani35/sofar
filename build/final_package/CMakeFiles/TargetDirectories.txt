@@ -1,0 +1,10 @@
+/home/ghani/my_ws/build/final_package/CMakeFiles/install/strip.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/install/local.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/install.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/list_install_components.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/rebuild_cache.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/edit_cache.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/test.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/controllercpp.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/final_package_uninstall.dir
+/home/ghani/my_ws/build/final_package/CMakeFiles/uninstall.dir

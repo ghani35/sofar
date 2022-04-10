@@ -1,0 +1,8 @@
+source;share/newcpppackage/hook/cmake_prefix_path.ps1
+source;share/newcpppackage/hook/cmake_prefix_path.dsv
+source;share/newcpppackage/hook/cmake_prefix_path.sh
+source;share/newcpppackage/local_setup.bash
+source;share/newcpppackage/local_setup.dsv
+source;share/newcpppackage/local_setup.ps1
+source;share/newcpppackage/local_setup.sh
+source;share/newcpppackage/local_setup.zsh

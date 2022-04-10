@@ -1,0 +1,11 @@
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:[m[K In member function ‘[01m[Kvoid MinimalSubscriber::topic_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:46:28:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   46 |       current.y=current2->y[01;31m[K:[m[K
+      |                            [01;31m[K^[m[K
+      |                            [32m[K::[m[K
+[01m[K/home/ghani/my_ws/src/final_package/src/controller.cpp:46:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ is not a class, namespace, or enumeration
+   46 |       current.y=current2->[01;31m[Ky[m[K:
+      |                           [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/controllercpp.dir/build.make:63: CMakeFiles/controllercpp.dir/src/controller.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/controllercpp.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

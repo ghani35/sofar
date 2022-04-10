@@ -1,0 +1,21 @@
+[0.015s] Invoking command in '/home/ghani/my_ws/build/cpp_new': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6
+[0.042s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.063s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.117s] -- Found rclcpp: 9.2.0 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.150s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.314s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[0.315s] -- Found rmw_cyclonedds_cpp: 0.22.4 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[0.332s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.461s] CMake Error at /opt/ros/galactic/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:42 (message):
+[0.461s]   ament_target_dependencies() the first argument must be a valid target name
+[0.461s] Call Stack (most recent call first):
+[0.461s]   CMakeLists.txt:14 (ament_target_dependencies)
+[0.461s] 
+[0.461s] 
+[0.462s] -- Configuring incomplete, errors occurred!
+[0.462s] See also "/home/ghani/my_ws/build/cpp_new/CMakeFiles/CMakeOutput.log".
+[0.462s] See also "/home/ghani/my_ws/build/cpp_new/CMakeFiles/CMakeError.log".
+[0.468s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.472s] Invoked command in '/home/ghani/my_ws/build/cpp_new' returned '2': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/ghani/my_ws/build/cpp_new -- -j6 -l6

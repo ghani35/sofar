@@ -1,0 +1,7 @@
+[0.000000] (-) TimerEvent: {}
+[0.003731] (-) JobUnselected: {'identifier': 'cpp_package'}
+[0.003854] (-) JobUnselected: {'identifier': 'final_package'}
+[0.003895] (-) JobUnselected: {'identifier': 'py_package'}
+[0.003928] (-) JobUnselected: {'identifier': 'py_srvcli'}
+[0.003959] (-) JobUnselected: {'identifier': 'srevices_exercise'}
+[0.003993] (-) EventReactorShutdown: {}
